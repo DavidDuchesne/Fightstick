@@ -2929,6 +2929,178 @@
 				)
 			)
 		)
+		(symbol "LED_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D2"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "GREEN"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 5 255 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_RaspberryPi_RP2040:RP2040"
 			(pin_names
 				(offset 1.016)
@@ -5091,7 +5263,7 @@
 		(uuid "016bee3a-2d6c-47c6-84ea-0c0101217685")
 	)
 	(junction
-		(at 335.28 90.17)
+		(at 344.17 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01bc7149-2b4b-4f7b-919d-14818cae58f1")
@@ -5103,7 +5275,7 @@
 		(uuid "03ac563d-4d9d-432f-b818-16aa355e3f26")
 	)
 	(junction
-		(at 386.08 142.24)
+		(at 387.35 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04346313-d97c-4d59-b74e-75a1f7a46c6a")
@@ -5115,25 +5287,25 @@
 		(uuid "04ea0d2c-d31e-4863-9702-0c02ad6a96b9")
 	)
 	(junction
-		(at 313.69 144.78)
+		(at 314.96 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05c5957c-8ac7-4736-b9c1-377404d776f7")
 	)
 	(junction
-		(at 273.05 90.17)
+		(at 280.67 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0df0181f-808b-4d13-a674-7afd29748233")
 	)
 	(junction
-		(at 386.08 177.8)
+		(at 387.35 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12a37c3e-0007-49b6-9c73-281ac37be3fc")
 	)
 	(junction
-		(at 386.08 144.78)
+		(at 387.35 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1608f6dc-da92-4256-84da-98cadf68bd71")
@@ -5163,19 +5335,19 @@
 		(uuid "1ea163f1-1fb9-45c3-82e2-4099a5d3fcf1")
 	)
 	(junction
-		(at 386.08 160.02)
+		(at 387.35 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f352388-cb99-4e3d-884e-be783e2287d3")
 	)
 	(junction
-		(at 289.56 50.8)
+		(at 297.18 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25fa9c41-ab2f-475b-8e58-8b9878a528f4")
 	)
 	(junction
-		(at 228.6 77.47)
+		(at 232.41 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28e3dc8a-ea5d-41e8-8b1a-7b0682d857a3")
@@ -5205,13 +5377,13 @@
 		(uuid "2c5e738b-49d2-4421-9f33-2d67cdc9eed7")
 	)
 	(junction
-		(at 313.69 160.02)
+		(at 314.96 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d2c3aee-13fa-43ef-9b38-17f34217b1b5")
 	)
 	(junction
-		(at 313.69 137.16)
+		(at 314.96 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d990272-a490-47cd-8f9f-8c7fb88f9123")
@@ -5223,7 +5395,7 @@
 		(uuid "2df0fec1-3d90-436a-8f87-97d2b87e4827")
 	)
 	(junction
-		(at 386.08 170.18)
+		(at 387.35 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ed2b797-0a95-41dd-891f-0f1175533069")
@@ -5235,19 +5407,19 @@
 		(uuid "2f1cd49f-43d0-4a53-979b-bdbb8a3d7d9f")
 	)
 	(junction
-		(at 212.09 26.67)
+		(at 215.9 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fdc8b00-96d5-4c02-9b8f-1707e667b22c")
 	)
 	(junction
-		(at 212.09 77.47)
+		(at 215.9 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ff03cc3-c571-40f7-9a98-dc5318379673")
 	)
 	(junction
-		(at 313.69 175.26)
+		(at 314.96 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "300e3f91-da4c-419d-a420-d86d8fa91083")
@@ -5295,7 +5467,7 @@
 		(uuid "416f1aa3-4906-418d-9a68-a4b9b68d3248")
 	)
 	(junction
-		(at 386.08 149.86)
+		(at 387.35 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "424e3263-307f-47f1-8f2a-7846de70bb6c")
@@ -5319,13 +5491,13 @@
 		(uuid "4a32a443-dc04-4793-b36a-7f31e3738b4b")
 	)
 	(junction
-		(at 212.09 38.1)
+		(at 215.9 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b695fb2-9c3e-4318-b4c5-124818dc0f30")
 	)
 	(junction
-		(at 386.08 154.94)
+		(at 387.35 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b79f858-9290-493b-a75a-f4e6ddc5ba07")
@@ -5343,13 +5515,13 @@
 		(uuid "53a6b5ae-6710-48c0-9807-2cca1991ed05")
 	)
 	(junction
-		(at 228.6 90.17)
+		(at 232.41 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53ff9299-a209-4cd2-9cb8-814ed32c8416")
 	)
 	(junction
-		(at 313.69 170.18)
+		(at 314.96 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57e5493b-9901-4193-8dff-2452ae0b9afa")
@@ -5361,25 +5533,25 @@
 		(uuid "581c7ed4-ded4-4dd8-b628-938d65d87aa1")
 	)
 	(junction
-		(at 351.79 50.8)
+		(at 360.68 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a31ba7b-e411-4d99-8dca-2df208ab653d")
 	)
 	(junction
-		(at 386.08 167.64)
+		(at 387.35 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a8229e9-82f0-430a-b607-3a9331dab1e9")
 	)
 	(junction
-		(at 313.69 139.7)
+		(at 314.96 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bc4ee19-d4df-493c-9626-8efc2b669c41")
 	)
 	(junction
-		(at 212.09 66.04)
+		(at 215.9 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c2b7fa1-39e3-4662-986b-a37b464a9f26")
@@ -5391,7 +5563,7 @@
 		(uuid "5c7ab146-3c10-4678-ac96-48331dc26ba5")
 	)
 	(junction
-		(at 273.05 66.04)
+		(at 280.67 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d0b8d06-f53e-4fac-9396-9f075121ceab")
@@ -5409,10 +5581,16 @@
 		(uuid "5dca7d9a-9720-4d46-ba7e-6e8720989243")
 	)
 	(junction
-		(at 386.08 139.7)
+		(at 387.35 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6159f130-7d0a-4f27-a4cc-a2c84b11127a")
+	)
+	(junction
+		(at 375.92 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6225153b-c7a0-47b5-8d69-cbc6bee2363c")
 	)
 	(junction
 		(at 24.13 38.1)
@@ -5427,7 +5605,7 @@
 		(uuid "666f5ad8-0001-4d67-ab09-88fd0519554f")
 	)
 	(junction
-		(at 313.69 147.32)
+		(at 314.96 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "673a3b2b-caf0-4729-a44c-de4807c2ed26")
@@ -5469,7 +5647,13 @@
 		(uuid "6cc11a7c-ede6-4605-848e-d02c555bb790")
 	)
 	(junction
-		(at 386.08 175.26)
+		(at 360.68 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e9a9d11-e7bb-4804-86c4-4e800db51fa6")
+	)
+	(junction
+		(at 387.35 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "742aab9f-fd9d-496e-89e5-931e797a61b6")
@@ -5493,7 +5677,7 @@
 		(uuid "78d0300f-46ac-4c95-9e4a-57b3bb4f5f8e")
 	)
 	(junction
-		(at 313.69 157.48)
+		(at 314.96 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b132d27-2494-41b5-a5a9-04ccde4a8f5d")
@@ -5511,7 +5695,7 @@
 		(uuid "838110d2-4086-44b5-9809-4fdabb7ccfe0")
 	)
 	(junction
-		(at 335.28 38.1)
+		(at 344.17 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85b70fa7-cb79-4dae-8c1e-c36a0525885e")
@@ -5523,7 +5707,7 @@
 		(uuid "85f1c93a-d947-4cac-a92b-b7febe3d17b2")
 	)
 	(junction
-		(at 313.69 152.4)
+		(at 314.96 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "877a7ae4-7a87-429a-9d15-cedba5903a4b")
@@ -5535,13 +5719,19 @@
 		(uuid "8999fdb9-2113-4f1c-a2f8-9dd167de631e")
 	)
 	(junction
-		(at 273.05 38.1)
+		(at 375.92 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f94e86b-ac99-44a4-bea7-d00d10a0070d")
+	)
+	(junction
+		(at 280.67 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92b993d2-aca2-45ae-a23d-ed36bd1ac3d3")
 	)
 	(junction
-		(at 289.56 90.17)
+		(at 297.18 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93a1aed2-1da4-4900-b7a0-2262b7da0439")
@@ -5553,7 +5743,7 @@
 		(uuid "9853f260-972d-418f-af39-f8b7753f5af4")
 	)
 	(junction
-		(at 386.08 147.32)
+		(at 387.35 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a056cfe6-7d4b-41c0-92c0-0394d7a382a9")
@@ -5577,25 +5767,25 @@
 		(uuid "a472a4be-292c-4faf-a991-11192c9c670c")
 	)
 	(junction
-		(at 313.69 154.94)
+		(at 314.96 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4ff9458-6fe4-4c02-85f9-0ecd31c53a87")
 	)
 	(junction
-		(at 273.05 50.8)
+		(at 280.67 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7f22757-c8e3-42e2-900c-b9fe88fbd8ca")
 	)
 	(junction
-		(at 386.08 162.56)
+		(at 387.35 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a86f0cd5-b477-4280-8f0f-4843c9c14add")
 	)
 	(junction
-		(at 313.69 172.72)
+		(at 314.96 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa5afc3a-16f8-447b-b928-ad6b1ab7de58")
@@ -5613,31 +5803,31 @@
 		(uuid "adec5b4a-70c9-4c10-bdfb-2a39cd157399")
 	)
 	(junction
-		(at 386.08 152.4)
+		(at 387.35 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b575d5ad-4c8f-406e-905a-16b96f1f0644")
 	)
 	(junction
-		(at 335.28 26.67)
+		(at 344.17 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5f11e0b-1989-4bb8-80eb-50ce6785bf04")
 	)
 	(junction
-		(at 289.56 38.1)
+		(at 297.18 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b709c090-1714-4b05-b6c3-83f9dd956d5b")
 	)
 	(junction
-		(at 386.08 137.16)
+		(at 387.35 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baea85de-41fb-40b0-85bc-a0b19aae2dde")
 	)
 	(junction
-		(at 313.69 167.64)
+		(at 314.96 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bafb54fd-3b13-4053-91a7-33fea7722b43")
@@ -5667,19 +5857,19 @@
 		(uuid "c2d6f9d1-0f82-4979-bac9-57a68dd6848b")
 	)
 	(junction
-		(at 313.69 149.86)
+		(at 314.96 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c323364a-40d3-460f-a03e-0eabf2ef39b7")
 	)
 	(junction
-		(at 351.79 77.47)
+		(at 360.68 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c341be6d-25c4-42a8-a7ba-062db10e1391")
 	)
 	(junction
-		(at 273.05 77.47)
+		(at 280.67 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c46ff216-276c-4d37-9dfe-0a0750ed5704")
@@ -5691,7 +5881,7 @@
 		(uuid "c5921f1a-40c2-463b-a101-00f6b003ac55")
 	)
 	(junction
-		(at 351.79 38.1)
+		(at 360.68 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9187fde-57dd-48ce-97f3-ff5f5ec72912")
@@ -5715,31 +5905,31 @@
 		(uuid "cf1190d3-0877-49d3-9714-08ab72c9c8fa")
 	)
 	(junction
-		(at 212.09 50.8)
+		(at 215.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfae5acb-1578-441b-9f75-c3fe8e2ed321")
 	)
 	(junction
-		(at 313.69 177.8)
+		(at 314.96 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0a5a71d-ad88-4cdf-8172-2963e5600181")
 	)
 	(junction
-		(at 228.6 38.1)
+		(at 232.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d671ae4a-3f2b-4845-84b0-bcda3162d7ff")
 	)
 	(junction
-		(at 313.69 165.1)
+		(at 314.96 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d920cf46-151a-4228-9e30-6db4d96d481b")
 	)
 	(junction
-		(at 313.69 162.56)
+		(at 314.96 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da66f1f0-d097-4246-9fa1-29b5e52e27ef")
@@ -5751,19 +5941,19 @@
 		(uuid "db8180ee-d79a-470f-ad18-f4c9f4207dde")
 	)
 	(junction
-		(at 228.6 50.8)
+		(at 232.41 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1458892-4648-4755-b86d-8c26fb29310b")
 	)
 	(junction
-		(at 386.08 165.1)
+		(at 387.35 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3414f46-ef33-42b0-8f68-30aa26c1e70c")
 	)
 	(junction
-		(at 273.05 26.67)
+		(at 280.67 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4284159-fa19-40fa-b351-6e72efa08e3b")
@@ -5775,13 +5965,13 @@
 		(uuid "e4333bdb-0360-47d3-b289-7f4c8d056be4")
 	)
 	(junction
-		(at 289.56 77.47)
+		(at 297.18 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e55e7b90-7d6c-4f3f-a77e-a583dedbef6c")
 	)
 	(junction
-		(at 386.08 157.48)
+		(at 387.35 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5c831d3-15f7-46ec-a423-54b0551613ad")
@@ -5799,19 +5989,19 @@
 		(uuid "e7446060-008f-4151-9180-5500fb591f6b")
 	)
 	(junction
-		(at 335.28 77.47)
+		(at 344.17 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e845cd0f-86b7-40af-86fd-7853b9478528")
 	)
 	(junction
-		(at 386.08 172.72)
+		(at 387.35 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e88403c5-1274-4d42-90cb-f80d41902a45")
 	)
 	(junction
-		(at 335.28 66.04)
+		(at 344.17 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8e7afdd-9ffe-4a77-bed1-5b1baebf389f")
@@ -5829,7 +6019,7 @@
 		(uuid "ede2c222-df9f-4553-8385-3baa8fc35664")
 	)
 	(junction
-		(at 351.79 90.17)
+		(at 360.68 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee5a753f-2286-431e-8a34-12b66fbcbadc")
@@ -5847,19 +6037,19 @@
 		(uuid "f0f63438-4f90-4ec6-85d7-5e57b68c1aa1")
 	)
 	(junction
-		(at 335.28 50.8)
+		(at 344.17 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f16ae625-8110-4b50-8652-089d7818088c")
 	)
 	(junction
-		(at 313.69 142.24)
+		(at 314.96 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7ba9c64-9934-4471-9786-9f39696ff9a9")
 	)
 	(junction
-		(at 212.09 90.17)
+		(at 215.9 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa7b4904-36df-4798-a6ea-58fd588b7be9")
@@ -5942,6 +6132,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 212.09) (xy 307.34 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051e5398-75d7-4b7d-a3bd-a48badf4bb52")
+	)
+	(wire
+		(pts
 			(xy 104.14 50.8) (xy 115.57 50.8)
 		)
 		(stroke
@@ -5952,7 +6152,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 160.02) (xy 386.08 162.56)
+			(xy 387.35 133.35) (xy 387.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5982,7 +6182,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 147.32) (xy 359.41 147.32)
+			(xy 373.38 120.65) (xy 360.68 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5992,7 +6192,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 25.4) (xy 335.28 26.67)
+			(xy 344.17 25.4) (xy 344.17 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6012,7 +6212,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 38.1) (xy 228.6 38.1)
+			(xy 231.14 38.1) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6052,7 +6252,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 154.94) (xy 327.66 154.94)
+			(xy 341.63 128.27) (xy 328.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6062,7 +6262,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 167.64) (xy 313.69 170.18)
+			(xy 314.96 140.97) (xy 314.96 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6072,7 +6272,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 223.52) (xy 346.71 224.79)
+			(xy 240.03 271.78) (xy 240.03 273.05)
 		)
 		(stroke
 			(width 0)
@@ -6089,6 +6289,16 @@
 			(type default)
 		)
 		(uuid "0f524b40-4f8b-47d6-9b95-e29b40832515")
+	)
+	(wire
+		(pts
+			(xy 290.83 212.09) (xy 290.83 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105cfbd9-6f5b-43e1-b450-ec4d9688b974")
 	)
 	(wire
 		(pts
@@ -6122,7 +6332,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 86.36) (xy 289.56 90.17)
+			(xy 297.18 86.36) (xy 297.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6132,7 +6342,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 50.8) (xy 273.05 52.07)
+			(xy 280.67 50.8) (xy 280.67 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6152,7 +6362,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 39.37) (xy 289.56 38.1)
+			(xy 297.18 39.37) (xy 297.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6162,7 +6372,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 144.78) (xy 386.08 147.32)
+			(xy 387.35 118.11) (xy 387.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6172,7 +6382,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 154.94) (xy 359.41 154.94)
+			(xy 373.38 128.27) (xy 360.68 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6222,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 38.1) (xy 351.79 38.1)
+			(xy 359.41 38.1) (xy 360.68 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6252,7 +6462,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 90.17) (xy 273.05 91.44)
+			(xy 280.67 90.17) (xy 280.67 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6272,7 +6482,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 38.1) (xy 212.09 39.37)
+			(xy 215.9 38.1) (xy 215.9 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6322,7 +6532,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 179.07) (xy 340.36 177.8)
+			(xy 341.63 152.4) (xy 341.63 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6342,6 +6552,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 212.09) (xy 290.83 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23135838-1ac4-44de-b764-1f80a1fdd309")
+	)
+	(wire
+		(pts
 			(xy 64.77 184.15) (xy 81.28 184.15)
 		)
 		(stroke
@@ -6352,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 64.77) (xy 335.28 66.04)
+			(xy 344.17 64.77) (xy 344.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6362,7 +6582,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 49.53) (xy 273.05 50.8)
+			(xy 280.67 49.53) (xy 280.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6392,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 50.8) (xy 212.09 50.8)
+			(xy 232.41 50.8) (xy 215.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6422,7 +6642,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 26.67) (xy 212.09 26.67)
+			(xy 243.84 26.67) (xy 215.9 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6432,7 +6652,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 177.8) (xy 313.69 177.8)
+			(xy 316.23 151.13) (xy 314.96 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6452,7 +6672,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 167.64) (xy 386.08 170.18)
+			(xy 387.35 140.97) (xy 387.35 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6462,7 +6682,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 134.62) (xy 313.69 134.62)
+			(xy 316.23 107.95) (xy 314.96 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6472,7 +6692,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 177.8) (xy 327.66 177.8)
+			(xy 341.63 151.13) (xy 328.93 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6482,7 +6702,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 137.16) (xy 386.08 139.7)
+			(xy 387.35 110.49) (xy 387.35 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6502,7 +6722,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 77.47) (xy 289.56 77.47)
+			(xy 295.91 77.47) (xy 297.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6522,7 +6742,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 90.17) (xy 335.28 90.17)
+			(xy 360.68 90.17) (xy 344.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6542,7 +6762,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 38.1) (xy 342.9 38.1)
+			(xy 344.17 38.1) (xy 351.79 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6552,7 +6772,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 78.74) (xy 228.6 77.47)
+			(xy 232.41 78.74) (xy 232.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6592,7 +6812,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 77.47) (xy 382.27 77.47)
+			(xy 389.89 77.47) (xy 391.16 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6642,7 +6862,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 142.24) (xy 386.08 144.78)
+			(xy 387.35 115.57) (xy 387.35 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6692,13 +6912,23 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 152.4) (xy 327.66 152.4)
+			(xy 341.63 125.73) (xy 328.93 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33ffa353-9a84-4e8a-8fb0-93c509f18d3c")
+	)
+	(wire
+		(pts
+			(xy 318.77 212.09) (xy 323.85 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344920a1-8970-48fa-a3fd-4903f03a1162")
 	)
 	(wire
 		(pts
@@ -6712,7 +6942,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 64.77) (xy 212.09 66.04)
+			(xy 215.9 64.77) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6742,7 +6972,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 90.17) (xy 240.03 90.17)
+			(xy 232.41 90.17) (xy 243.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6752,7 +6982,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 172.72) (xy 386.08 175.26)
+			(xy 387.35 146.05) (xy 387.35 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6762,7 +6992,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 170.18) (xy 313.69 172.72)
+			(xy 314.96 143.51) (xy 314.96 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6772,7 +7002,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 66.04) (xy 335.28 68.58)
+			(xy 344.17 66.04) (xy 344.17 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6782,7 +7012,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 86.36) (xy 228.6 90.17)
+			(xy 232.41 86.36) (xy 232.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6802,7 +7032,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 142.24) (xy 313.69 144.78)
+			(xy 375.92 198.12) (xy 360.68 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d63087-0199-49d0-8d31-7081e520cb0b")
+	)
+	(wire
+		(pts
+			(xy 314.96 115.57) (xy 314.96 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6812,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 160.02) (xy 313.69 160.02)
+			(xy 316.23 133.35) (xy 314.96 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6822,7 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 67.31) (xy 363.22 66.04)
+			(xy 372.11 67.31) (xy 372.11 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6842,7 +7082,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 67.31) (xy 240.03 66.04)
+			(xy 243.84 67.31) (xy 243.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6852,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 157.48) (xy 313.69 157.48)
+			(xy 316.23 130.81) (xy 314.96 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6882,7 +7122,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 172.72) (xy 327.66 172.72)
+			(xy 341.63 146.05) (xy 328.93 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6902,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 142.24) (xy 386.08 142.24)
+			(xy 386.08 115.57) (xy 387.35 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6922,7 +7162,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 165.1) (xy 327.66 165.1)
+			(xy 341.63 138.43) (xy 328.93 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6932,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 66.04) (xy 212.09 66.04)
+			(xy 243.84 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6942,7 +7182,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 139.7) (xy 386.08 139.7)
+			(xy 386.08 113.03) (xy 387.35 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6952,7 +7192,17 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 90.17) (xy 363.22 87.63)
+			(xy 274.32 224.79) (xy 274.32 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d46953-46d1-4c49-bf4a-4b371c9820b6")
+	)
+	(wire
+		(pts
+			(xy 372.11 90.17) (xy 372.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6992,7 +7242,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 46.99) (xy 351.79 50.8)
+			(xy 360.68 46.99) (xy 360.68 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7012,7 +7262,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 142.24) (xy 359.41 142.24)
+			(xy 373.38 115.57) (xy 360.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7072,7 +7322,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 49.53) (xy 212.09 50.8)
+			(xy 215.9 49.53) (xy 215.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7122,7 +7372,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 76.2) (xy 212.09 77.47)
+			(xy 215.9 76.2) (xy 215.9 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7132,7 +7382,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 162.56) (xy 327.66 162.56)
+			(xy 341.63 135.89) (xy 328.93 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7172,7 +7422,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 27.94) (xy 240.03 26.67)
+			(xy 243.84 27.94) (xy 243.84 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7192,7 +7442,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 90.17) (xy 300.99 87.63)
+			(xy 308.61 90.17) (xy 308.61 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7212,7 +7462,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 36.83) (xy 335.28 38.1)
+			(xy 344.17 36.83) (xy 344.17 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7242,7 +7492,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 76.2) (xy 273.05 77.47)
+			(xy 280.67 76.2) (xy 280.67 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7262,7 +7512,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 137.16) (xy 359.41 137.16)
+			(xy 373.38 110.49) (xy 360.68 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7292,7 +7542,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 144.78) (xy 327.66 144.78)
+			(xy 341.63 118.11) (xy 328.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7302,7 +7552,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 154.94) (xy 386.08 157.48)
+			(xy 387.35 128.27) (xy 387.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7312,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 139.7) (xy 327.66 139.7)
+			(xy 341.63 113.03) (xy 328.93 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7322,7 +7572,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 25.4) (xy 273.05 26.67)
+			(xy 280.67 25.4) (xy 280.67 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7332,7 +7582,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 175.26) (xy 386.08 175.26)
+			(xy 386.08 148.59) (xy 387.35 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7342,7 +7592,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 90.17) (xy 363.22 90.17)
+			(xy 360.68 90.17) (xy 372.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7352,7 +7602,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 76.2) (xy 335.28 77.47)
+			(xy 344.17 76.2) (xy 344.17 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7382,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 144.78) (xy 313.69 144.78)
+			(xy 316.23 118.11) (xy 314.96 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7392,7 +7642,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 90.17) (xy 335.28 91.44)
+			(xy 344.17 90.17) (xy 344.17 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7412,7 +7662,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 147.32) (xy 313.69 149.86)
+			(xy 314.96 120.65) (xy 314.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7482,13 +7732,23 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 160.02) (xy 386.08 160.02)
+			(xy 386.08 133.35) (xy 387.35 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e23aa54-a412-46fe-9ddc-5f7fbacf7004")
+	)
+	(wire
+		(pts
+			(xy 307.34 212.09) (xy 307.34 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eed5016-e084-4bf0-a6c0-c388e2b5bf93")
 	)
 	(wire
 		(pts
@@ -7502,7 +7762,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 50.8) (xy 335.28 52.07)
+			(xy 344.17 50.8) (xy 344.17 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7552,7 +7812,17 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 157.48) (xy 386.08 160.02)
+			(xy 274.32 236.22) (xy 274.32 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63572541-c172-43cf-b50c-a1eb3a5fb301")
+	)
+	(wire
+		(pts
+			(xy 387.35 130.81) (xy 387.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7572,7 +7842,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 147.32) (xy 386.08 147.32)
+			(xy 386.08 120.65) (xy 387.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7592,7 +7862,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 152.4) (xy 386.08 152.4)
+			(xy 386.08 125.73) (xy 387.35 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7622,7 +7892,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 78.74) (xy 289.56 77.47)
+			(xy 297.18 78.74) (xy 297.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7632,7 +7902,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 38.1) (xy 353.06 38.1)
+			(xy 360.68 38.1) (xy 361.95 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7672,7 +7942,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 165.1) (xy 313.69 167.64)
+			(xy 314.96 138.43) (xy 314.96 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7692,7 +7962,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 46.99) (xy 228.6 50.8)
+			(xy 232.41 46.99) (xy 232.41 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7732,6 +8002,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 212.09) (xy 323.85 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae5d25d-35a3-4fdc-9e4f-415f908abb9c")
+	)
+	(wire
+		(pts
 			(xy 40.64 77.47) (xy 41.91 77.47)
 		)
 		(stroke
@@ -7752,7 +8032,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 139.7) (xy 313.69 139.7)
+			(xy 316.23 113.03) (xy 314.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7762,7 +8042,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 165.1) (xy 359.41 165.1)
+			(xy 373.38 138.43) (xy 360.68 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7772,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 88.9) (xy 335.28 90.17)
+			(xy 344.17 88.9) (xy 344.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7792,7 +8072,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 86.36) (xy 351.79 90.17)
+			(xy 360.68 86.36) (xy 360.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7812,7 +8092,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 170.18) (xy 313.69 170.18)
+			(xy 316.23 143.51) (xy 314.96 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7849,6 +8129,16 @@
 			(type default)
 		)
 		(uuid "6fc5d731-1a41-4957-9ba3-b6bf910e109d")
+	)
+	(wire
+		(pts
+			(xy 375.92 213.36) (xy 375.92 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71398618-2789-4d87-945a-7aed0ad7f3ff")
 	)
 	(wire
 		(pts
@@ -7892,7 +8182,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 165.1) (xy 386.08 167.64)
+			(xy 387.35 138.43) (xy 387.35 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7902,7 +8192,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 90.17) (xy 212.09 91.44)
+			(xy 215.9 90.17) (xy 215.9 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7912,7 +8202,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 50.8) (xy 335.28 50.8)
+			(xy 360.68 50.8) (xy 344.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7922,7 +8212,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 38.1) (xy 335.28 39.37)
+			(xy 344.17 38.1) (xy 344.17 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7952,7 +8242,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 139.7) (xy 386.08 142.24)
+			(xy 387.35 113.03) (xy 387.35 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7962,7 +8252,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 38.1) (xy 320.04 38.1)
+			(xy 326.39 38.1) (xy 327.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8032,7 +8322,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 134.62) (xy 313.69 137.16)
+			(xy 314.96 107.95) (xy 314.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8042,7 +8332,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 64.77) (xy 273.05 66.04)
+			(xy 280.67 64.77) (xy 280.67 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8072,7 +8362,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 162.56) (xy 359.41 162.56)
+			(xy 373.38 135.89) (xy 360.68 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8082,13 +8372,23 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 77.47) (xy 342.9 77.47)
+			(xy 344.17 77.47) (xy 351.79 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b9e5191-8560-485c-b950-f99b1c4882f7")
+	)
+	(wire
+		(pts
+			(xy 307.34 236.22) (xy 307.34 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c46fddd-d95b-4444-b57a-da4c7f8685de")
 	)
 	(wire
 		(pts
@@ -8112,7 +8412,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 25.4) (xy 212.09 26.67)
+			(xy 215.9 25.4) (xy 215.9 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8122,7 +8422,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 152.4) (xy 313.69 152.4)
+			(xy 316.23 125.73) (xy 314.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8132,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 177.8) (xy 313.69 180.34)
+			(xy 314.96 151.13) (xy 314.96 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8142,7 +8442,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 90.17) (xy 240.03 87.63)
+			(xy 243.84 90.17) (xy 243.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8152,7 +8452,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 177.8) (xy 386.08 177.8)
+			(xy 386.08 151.13) (xy 387.35 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8182,7 +8482,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 175.26) (xy 313.69 177.8)
+			(xy 375.92 198.12) (xy 375.92 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807538d5-975b-4f7f-a779-8b4d249701e5")
+	)
+	(wire
+		(pts
+			(xy 314.96 148.59) (xy 314.96 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8202,7 +8512,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 77.47) (xy 259.08 77.47)
+			(xy 261.62 77.47) (xy 262.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8212,7 +8522,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 134.62) (xy 386.08 134.62)
+			(xy 386.08 107.95) (xy 387.35 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8222,7 +8532,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 27.94) (xy 363.22 26.67)
+			(xy 372.11 27.94) (xy 372.11 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8232,7 +8542,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 77.47) (xy 290.83 77.47)
+			(xy 297.18 77.47) (xy 298.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8242,7 +8552,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 90.17) (xy 300.99 90.17)
+			(xy 297.18 90.17) (xy 308.61 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8252,7 +8562,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 177.8) (xy 372.11 177.8)
+			(xy 360.68 151.13) (xy 373.38 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8262,7 +8572,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 152.4) (xy 313.69 154.94)
+			(xy 314.96 125.73) (xy 314.96 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8272,7 +8582,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 137.16) (xy 313.69 139.7)
+			(xy 314.96 110.49) (xy 314.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8282,7 +8592,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 50.8) (xy 363.22 50.8)
+			(xy 360.68 50.8) (xy 372.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8292,7 +8602,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 78.74) (xy 351.79 77.47)
+			(xy 360.68 78.74) (xy 360.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8302,7 +8612,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 157.48) (xy 313.69 160.02)
+			(xy 314.96 130.81) (xy 314.96 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8322,7 +8632,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 46.99) (xy 289.56 50.8)
+			(xy 297.18 46.99) (xy 297.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8332,7 +8642,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 172.72) (xy 313.69 175.26)
+			(xy 314.96 146.05) (xy 314.96 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8352,7 +8662,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 90.17) (xy 212.09 90.17)
+			(xy 232.41 90.17) (xy 215.9 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8372,7 +8682,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 152.4) (xy 386.08 154.94)
+			(xy 387.35 125.73) (xy 387.35 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8392,7 +8702,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 149.86) (xy 313.69 152.4)
+			(xy 314.96 123.19) (xy 314.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8412,7 +8722,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 77.47) (xy 280.67 77.47)
+			(xy 280.67 77.47) (xy 288.29 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8422,7 +8732,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 170.18) (xy 359.41 170.18)
+			(xy 373.38 143.51) (xy 360.68 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8442,7 +8752,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 38.1) (xy 259.08 38.1)
+			(xy 261.62 38.1) (xy 262.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8452,7 +8762,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 149.86) (xy 327.66 149.86)
+			(xy 341.63 123.19) (xy 328.93 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8492,7 +8802,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 77.47) (xy 320.04 77.47)
+			(xy 326.39 77.47) (xy 327.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8522,7 +8832,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 167.64) (xy 386.08 167.64)
+			(xy 386.08 140.97) (xy 387.35 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8542,7 +8852,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 77.47) (xy 229.87 77.47)
+			(xy 232.41 77.47) (xy 233.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8552,13 +8862,23 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 165.1) (xy 386.08 165.1)
+			(xy 386.08 138.43) (xy 387.35 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93648289-8281-459c-b05f-02b94ecfcd2a")
+	)
+	(wire
+		(pts
+			(xy 290.83 236.22) (xy 290.83 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9428edfe-5173-4cba-879e-87b8faf42d0d")
 	)
 	(wire
 		(pts
@@ -8582,7 +8902,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 170.18) (xy 386.08 170.18)
+			(xy 386.08 143.51) (xy 387.35 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8602,7 +8922,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 165.1) (xy 313.69 165.1)
+			(xy 316.23 138.43) (xy 314.96 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8612,7 +8932,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 50.8) (xy 363.22 48.26)
+			(xy 372.11 50.8) (xy 372.11 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8642,7 +8962,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 172.72) (xy 313.69 172.72)
+			(xy 316.23 146.05) (xy 314.96 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8662,7 +8982,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 38.1) (xy 273.05 39.37)
+			(xy 280.67 38.1) (xy 280.67 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8682,7 +9002,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 142.24) (xy 313.69 142.24)
+			(xy 316.23 115.57) (xy 314.96 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8702,7 +9022,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 175.26) (xy 327.66 175.26)
+			(xy 341.63 148.59) (xy 328.93 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8722,7 +9042,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 175.26) (xy 313.69 175.26)
+			(xy 316.23 148.59) (xy 314.96 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8732,13 +9052,23 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 66.04) (xy 273.05 66.04)
+			(xy 308.61 66.04) (xy 280.67 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b400cc4-ba7c-46f6-9c2c-d3e514827e06")
+	)
+	(wire
+		(pts
+			(xy 375.92 210.82) (xy 375.92 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7664a2-7fe1-49a5-b9e2-57cb343ee377")
 	)
 	(wire
 		(pts
@@ -8792,7 +9122,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 154.94) (xy 313.69 157.48)
+			(xy 314.96 128.27) (xy 314.96 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8812,7 +9142,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 77.47) (xy 273.05 78.74)
+			(xy 280.67 77.47) (xy 280.67 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8832,7 +9162,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 149.86) (xy 386.08 149.86)
+			(xy 386.08 123.19) (xy 387.35 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8842,7 +9172,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 213.36) (xy 346.71 215.9)
+			(xy 240.03 261.62) (xy 240.03 264.16)
 		)
 		(stroke
 			(width 0)
@@ -8872,7 +9202,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 154.94) (xy 313.69 154.94)
+			(xy 316.23 128.27) (xy 314.96 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8892,7 +9222,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 134.62) (xy 386.08 137.16)
+			(xy 387.35 107.95) (xy 387.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8912,7 +9242,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 50.8) (xy 240.03 48.26)
+			(xy 243.84 50.8) (xy 243.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8942,7 +9272,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 27.94) (xy 300.99 26.67)
+			(xy 308.61 27.94) (xy 308.61 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8952,7 +9282,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 162.56) (xy 313.69 162.56)
+			(xy 316.23 135.89) (xy 314.96 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8982,7 +9312,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 134.62) (xy 340.36 133.35)
+			(xy 341.63 107.95) (xy 341.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8992,7 +9322,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 50.8) (xy 240.03 50.8)
+			(xy 232.41 50.8) (xy 243.84 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9002,7 +9332,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 50.8) (xy 212.09 52.07)
+			(xy 323.85 236.22) (xy 323.85 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a880eb14-df9c-4764-b195-56b43149cd17")
+	)
+	(wire
+		(pts
+			(xy 215.9 50.8) (xy 215.9 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9012,7 +9352,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 38.1) (xy 289.56 38.1)
+			(xy 295.91 38.1) (xy 297.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9029,6 +9369,16 @@
 			(type default)
 		)
 		(uuid "a9ca06e9-d294-405a-a570-f692a50928a2")
+	)
+	(wire
+		(pts
+			(xy 269.24 212.09) (xy 274.32 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ef1fbc-dfef-4ff1-ad5f-21502d73e94b")
 	)
 	(wire
 		(pts
@@ -9082,7 +9432,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 144.78) (xy 359.41 144.78)
+			(xy 373.38 118.11) (xy 360.68 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9092,7 +9442,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 50.8) (xy 300.99 50.8)
+			(xy 297.18 50.8) (xy 308.61 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9112,13 +9462,23 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 149.86) (xy 359.41 149.86)
+			(xy 373.38 123.19) (xy 360.68 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "adb23201-a35e-4161-90f0-40d9cf83619d")
+	)
+	(wire
+		(pts
+			(xy 274.32 212.09) (xy 274.32 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade797a6-17d5-46ad-a32c-b6c9a4730824")
 	)
 	(wire
 		(pts
@@ -9132,7 +9492,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 157.48) (xy 327.66 157.48)
+			(xy 341.63 130.81) (xy 328.93 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9142,7 +9502,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 170.18) (xy 386.08 172.72)
+			(xy 387.35 143.51) (xy 387.35 146.05)
 		)
 		(stroke
 			(width 0)
@@ -9152,7 +9512,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 172.72) (xy 359.41 172.72)
+			(xy 373.38 146.05) (xy 360.68 146.05)
 		)
 		(stroke
 			(width 0)
@@ -9172,7 +9532,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 142.24) (xy 327.66 142.24)
+			(xy 341.63 115.57) (xy 328.93 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9212,7 +9572,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 26.67) (xy 335.28 26.67)
+			(xy 372.11 26.67) (xy 344.17 26.67)
 		)
 		(stroke
 			(width 0)
@@ -9232,7 +9592,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 88.9) (xy 273.05 90.17)
+			(xy 280.67 88.9) (xy 280.67 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9242,7 +9602,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 77.47) (xy 351.79 77.47)
+			(xy 359.41 77.47) (xy 360.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9282,13 +9642,23 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 175.26) (xy 359.41 175.26)
+			(xy 373.38 148.59) (xy 360.68 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b37f4dfe-1846-4622-96b7-2eb9e7e509d6")
+	)
+	(wire
+		(pts
+			(xy 375.92 184.15) (xy 375.92 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3963ed8-af64-49f6-95b8-096a7cb956e8")
 	)
 	(wire
 		(pts
@@ -9302,7 +9672,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 38.1) (xy 382.27 38.1)
+			(xy 389.89 38.1) (xy 391.16 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9362,7 +9732,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 26.67) (xy 273.05 29.21)
+			(xy 280.67 26.67) (xy 280.67 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9372,7 +9742,17 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 147.32) (xy 313.69 147.32)
+			(xy 375.92 213.36) (xy 360.68 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b797dfa0-11ca-41ab-b79e-d044389df6ce")
+	)
+	(wire
+		(pts
+			(xy 316.23 120.65) (xy 314.96 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9382,7 +9762,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 26.67) (xy 212.09 29.21)
+			(xy 215.9 26.67) (xy 215.9 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9422,7 +9802,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 38.1) (xy 280.67 38.1)
+			(xy 280.67 38.1) (xy 288.29 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9442,7 +9822,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 157.48) (xy 386.08 157.48)
+			(xy 386.08 130.81) (xy 387.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9462,7 +9842,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 144.78) (xy 386.08 144.78)
+			(xy 386.08 118.11) (xy 387.35 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9502,7 +9882,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 39.37) (xy 351.79 38.1)
+			(xy 360.68 39.37) (xy 360.68 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9522,7 +9902,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 160.02) (xy 313.69 162.56)
+			(xy 314.96 133.35) (xy 314.96 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9532,7 +9912,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 144.78) (xy 313.69 147.32)
+			(xy 314.96 118.11) (xy 314.96 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9542,7 +9922,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 139.7) (xy 313.69 142.24)
+			(xy 314.96 113.03) (xy 314.96 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9582,7 +9962,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 179.07) (xy 359.41 177.8)
+			(xy 360.68 152.4) (xy 360.68 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9612,7 +9992,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 154.94) (xy 386.08 154.94)
+			(xy 386.08 128.27) (xy 387.35 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9632,7 +10012,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 160.02) (xy 327.66 160.02)
+			(xy 341.63 133.35) (xy 328.93 133.35)
 		)
 		(stroke
 			(width 0)
@@ -9652,7 +10032,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 149.86) (xy 386.08 152.4)
+			(xy 387.35 123.19) (xy 387.35 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9672,7 +10052,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 66.04) (xy 212.09 68.58)
+			(xy 215.9 66.04) (xy 215.9 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9722,7 +10102,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 77.47) (xy 228.6 77.47)
+			(xy 231.14 77.47) (xy 232.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9752,7 +10132,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 66.04) (xy 335.28 66.04)
+			(xy 372.11 66.04) (xy 344.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9772,7 +10152,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 170.18) (xy 327.66 170.18)
+			(xy 341.63 143.51) (xy 328.93 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9782,7 +10162,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 66.04) (xy 273.05 68.58)
+			(xy 280.67 66.04) (xy 280.67 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9802,7 +10182,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 137.16) (xy 386.08 137.16)
+			(xy 386.08 110.49) (xy 387.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9812,7 +10192,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 167.64) (xy 313.69 167.64)
+			(xy 316.23 140.97) (xy 314.96 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9822,7 +10202,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 77.47) (xy 212.09 78.74)
+			(xy 215.9 77.47) (xy 215.9 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9842,7 +10222,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 134.62) (xy 359.41 134.62)
+			(xy 373.38 107.95) (xy 360.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9852,7 +10232,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 137.16) (xy 327.66 137.16)
+			(xy 341.63 110.49) (xy 328.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9872,7 +10252,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 88.9) (xy 212.09 90.17)
+			(xy 215.9 88.9) (xy 215.9 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9882,7 +10262,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 152.4) (xy 359.41 152.4)
+			(xy 373.38 125.73) (xy 360.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9892,7 +10272,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 147.32) (xy 327.66 147.32)
+			(xy 341.63 120.65) (xy 328.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9912,7 +10292,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 49.53) (xy 335.28 50.8)
+			(xy 344.17 49.53) (xy 344.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9922,7 +10302,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 162.56) (xy 386.08 165.1)
+			(xy 387.35 135.89) (xy 387.35 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9932,7 +10312,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 36.83) (xy 273.05 38.1)
+			(xy 280.67 36.83) (xy 280.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9952,13 +10332,23 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 162.56) (xy 313.69 165.1)
+			(xy 314.96 135.89) (xy 314.96 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6e6e64e-f485-4f87-856d-5b57ab3f6d19")
+	)
+	(wire
+		(pts
+			(xy 290.83 224.79) (xy 290.83 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72e14d8-d1d1-4460-aba2-91271d672fd6")
 	)
 	(wire
 		(pts
@@ -9992,7 +10382,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 149.86) (xy 313.69 149.86)
+			(xy 316.23 123.19) (xy 314.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10009,6 +10399,16 @@
 			(type default)
 		)
 		(uuid "d80265d4-350b-4618-a165-8f6c778e4ddc")
+	)
+	(wire
+		(pts
+			(xy 351.79 198.12) (xy 360.68 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b887a1-f601-4acc-a0da-5b6335599bda")
 	)
 	(wire
 		(pts
@@ -10052,7 +10452,17 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 50.8) (xy 273.05 50.8)
+			(xy 323.85 224.79) (xy 323.85 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae7137d-b68f-40b6-a2f0-43ad1d2a2859")
+	)
+	(wire
+		(pts
+			(xy 297.18 50.8) (xy 280.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -10062,7 +10472,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 77.47) (xy 219.71 77.47)
+			(xy 215.9 77.47) (xy 223.52 77.47)
 		)
 		(stroke
 			(width 0)
@@ -10082,7 +10492,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 160.02) (xy 359.41 160.02)
+			(xy 373.38 133.35) (xy 360.68 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10182,7 +10592,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 77.47) (xy 353.06 77.47)
+			(xy 360.68 77.47) (xy 361.95 77.47)
 		)
 		(stroke
 			(width 0)
@@ -10192,7 +10602,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 139.7) (xy 359.41 139.7)
+			(xy 373.38 113.03) (xy 360.68 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10202,7 +10612,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 38.1) (xy 229.87 38.1)
+			(xy 232.41 38.1) (xy 233.68 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10232,7 +10642,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 137.16) (xy 313.69 137.16)
+			(xy 316.23 110.49) (xy 314.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10282,7 +10692,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 39.37) (xy 228.6 38.1)
+			(xy 360.68 198.12) (xy 360.68 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c729af-60c0-4983-812f-1868402497f6")
+	)
+	(wire
+		(pts
+			(xy 232.41 39.37) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10292,7 +10712,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 50.8) (xy 300.99 48.26)
+			(xy 308.61 50.8) (xy 308.61 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10302,7 +10722,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 26.67) (xy 335.28 29.21)
+			(xy 344.17 26.67) (xy 344.17 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10312,7 +10732,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 147.32) (xy 386.08 149.86)
+			(xy 387.35 120.65) (xy 387.35 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10332,7 +10752,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 77.47) (xy 335.28 78.74)
+			(xy 344.17 77.47) (xy 344.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10382,7 +10802,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 167.64) (xy 359.41 167.64)
+			(xy 373.38 140.97) (xy 360.68 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10402,7 +10822,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 36.83) (xy 212.09 38.1)
+			(xy 215.9 36.83) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10442,7 +10862,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 172.72) (xy 386.08 172.72)
+			(xy 386.08 146.05) (xy 387.35 146.05)
 		)
 		(stroke
 			(width 0)
@@ -10492,7 +10912,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 38.1) (xy 219.71 38.1)
+			(xy 215.9 38.1) (xy 223.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10522,7 +10942,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 157.48) (xy 359.41 157.48)
+			(xy 373.38 130.81) (xy 360.68 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10542,7 +10962,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 177.8) (xy 386.08 180.34)
+			(xy 387.35 151.13) (xy 387.35 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10562,7 +10982,17 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 26.67) (xy 273.05 26.67)
+			(xy 360.68 213.36) (xy 360.68 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7381282-e6f3-4a70-8cc7-61ffe6d74a2b")
+	)
+	(wire
+		(pts
+			(xy 308.61 26.67) (xy 280.67 26.67)
 		)
 		(stroke
 			(width 0)
@@ -10572,13 +11002,23 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 38.1) (xy 290.83 38.1)
+			(xy 297.18 38.1) (xy 298.45 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f77b901c-528b-4d97-8d88-6aed3bab5869")
+	)
+	(wire
+		(pts
+			(xy 375.92 195.58) (xy 375.92 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d59100-833c-4902-af56-be54b5dddd08")
 	)
 	(wire
 		(pts
@@ -10592,7 +11032,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 167.64) (xy 327.66 167.64)
+			(xy 341.63 140.97) (xy 328.93 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10602,7 +11042,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 134.62) (xy 327.66 134.62)
+			(xy 341.63 107.95) (xy 328.93 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10632,7 +11072,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 175.26) (xy 386.08 177.8)
+			(xy 387.35 148.59) (xy 387.35 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10649,6 +11089,16 @@
 			(type default)
 		)
 		(uuid "fa98eca9-82ba-4f5d-b484-817d4366b9e2")
+	)
+	(wire
+		(pts
+			(xy 307.34 224.79) (xy 307.34 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf05def-c7ab-4b86-96ca-b3f548a05b53")
 	)
 	(wire
 		(pts
@@ -10692,7 +11142,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 90.17) (xy 273.05 90.17)
+			(xy 297.18 90.17) (xy 280.67 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10742,7 +11192,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 162.56) (xy 386.08 162.56)
+			(xy 386.08 135.89) (xy 387.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10762,7 +11212,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 67.31) (xy 300.99 66.04)
+			(xy 308.61 67.31) (xy 308.61 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10782,7 +11232,7 @@
 	)
 	(text "IOs"
 		(exclude_from_sim no)
-		(at 312.928 126.238 0)
+		(at 314.198 99.568 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -10813,6 +11263,17 @@
 		)
 		(uuid "20500675-d561-4f0c-9cea-5bac237ef30d")
 	)
+	(text "Reset button"
+		(exclude_from_sim no)
+		(at 341.63 175.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d03be27-95c2-47b6-978e-607d101d5448")
+	)
 	(text "Joystick"
 		(exclude_from_sim no)
 		(at 22.352 252.984 0)
@@ -10834,6 +11295,17 @@
 			(justify left bottom)
 		)
 		(uuid "3cd80ee8-2db9-4a2c-8c47-4cc278470a3f")
+	)
+	(text "Player leds"
+		(exclude_from_sim no)
+		(at 266.954 200.152 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "468a7bfb-21f9-4558-bf27-95189404674e")
 	)
 	(text "Make sure C10 is close to pin 44 of RP2040"
 		(exclude_from_sim no)
@@ -10902,7 +11374,7 @@
 		(uuid "019f9e18-abcc-47d8-9cac-005dbc506274")
 	)
 	(label "GPIO24"
-		(at 359.41 147.32 0)
+		(at 360.68 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10913,7 +11385,7 @@
 		(uuid "05c39a08-a098-4e9b-9af8-487e389486be")
 	)
 	(label "GPIO3"
-		(at 340.36 144.78 180)
+		(at 341.63 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10923,8 +11395,8 @@
 		)
 		(uuid "0ae1a2e3-79ad-492a-bab2-28b52e4df388")
 	)
-	(label "GPIO23"
-		(at 259.08 38.1 0)
+	(label "BUTTON_RT"
+		(at 262.89 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10968,7 +11440,7 @@
 		(uuid "120d05dd-2960-4236-8b05-fc2ed6752ce5")
 	)
 	(label "GPIO7"
-		(at 340.36 154.94 180)
+		(at 341.63 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11012,7 +11484,7 @@
 		(uuid "1b7cedb8-1438-48f8-91e9-0aa11af71116")
 	)
 	(label "GPIO21"
-		(at 359.41 154.94 0)
+		(at 360.68 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11044,8 +11516,8 @@
 		)
 		(uuid "2920cb24-f7cd-4528-812c-aaa3f86018f2")
 	)
-	(label "GPIO25"
-		(at 382.27 38.1 0)
+	(label "BUTTON_A"
+		(at 391.16 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11056,7 +11528,7 @@
 		(uuid "2b00dbd0-8748-4fc5-9d6d-eaccc44a5639")
 	)
 	(label "GPIO10"
-		(at 340.36 162.56 180)
+		(at 341.63 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11076,6 +11548,17 @@
 			(justify right bottom)
 		)
 		(uuid "30104d8a-e2f4-4dc1-8f67-ab4702978196")
+	)
+	(label "PLAYER_LED_0"
+		(at 269.24 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32ee3f4d-9748-4e14-b8f6-4f6343224410")
 	)
 	(label "QSPI_SD1"
 		(at 139.7 191.77 0)
@@ -11122,7 +11605,7 @@
 		(uuid "3eebdbd5-05bb-489b-90f7-17e9189235e6")
 	)
 	(label "GPIO29_ADC3"
-		(at 359.41 134.62 0)
+		(at 360.68 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11133,7 +11616,7 @@
 		(uuid "4043dd97-300f-4dcf-9143-3caf6fc6ab43")
 	)
 	(label "GPIO28_ADC2"
-		(at 359.41 137.16 0)
+		(at 360.68 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11154,7 +11637,7 @@
 		)
 		(uuid "47677584-32ff-4042-a2a2-8891e0875734")
 	)
-	(label "GPIO20"
+	(label "BUTTON_Y"
 		(at 232.41 234.95 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11176,7 +11659,7 @@
 		)
 		(uuid "48387d69-4ed1-40f1-bd4c-b9b59919d678")
 	)
-	(label "GPIO14"
+	(label "BUTTON_1"
 		(at 71.12 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11199,7 +11682,7 @@
 		(uuid "4996c0ec-9dcc-4ce2-abd3-719515968dac")
 	)
 	(label "GPIO6"
-		(at 340.36 152.4 180)
+		(at 341.63 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11210,7 +11693,7 @@
 		(uuid "4e7470ce-cda8-4b2c-8f60-b0871ee0f333")
 	)
 	(label "SWD"
-		(at 359.41 172.72 0)
+		(at 360.68 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11221,7 +11704,7 @@
 		(uuid "4ee59fc0-8a03-465b-86b9-760b8e2be4f6")
 	)
 	(label "RUN"
-		(at 359.41 170.18 0)
+		(at 360.68 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11231,7 +11714,7 @@
 		)
 		(uuid "4f7e14ec-ab50-4f71-bfb8-761bc02e29f6")
 	)
-	(label "GPIO18"
+	(label "BUTTON_LB"
 		(at 232.41 229.87 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11242,7 +11725,7 @@
 		)
 		(uuid "557d050d-49da-4e6c-b2d8-0d673f531f3a")
 	)
-	(label "GPIO25"
+	(label "BUTTON_A"
 		(at 232.41 247.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11254,7 +11737,7 @@
 		(uuid "55bdeef0-439e-442f-8343-c7a1ae16f3b0")
 	)
 	(label "GPIO2"
-		(at 340.36 142.24 180)
+		(at 341.63 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11264,8 +11747,8 @@
 		)
 		(uuid "56f7a752-81a4-4dd7-879d-9653b1870602")
 	)
-	(label "GPIO19"
-		(at 382.27 77.47 0)
+	(label "BUTTON_RB"
+		(at 391.16 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11276,7 +11759,7 @@
 		(uuid "58a7b371-bbe0-44d8-a0dc-ba8f73f79b36")
 	)
 	(label "GPIO1"
-		(at 340.36 139.7 180)
+		(at 341.63 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11286,7 +11769,7 @@
 		)
 		(uuid "5a80542a-950f-4910-bf29-59787f527171")
 	)
-	(label "GPIO0"
+	(label "PLAYER_LED_0"
 		(at 232.41 184.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11309,7 +11792,7 @@
 		(uuid "69c79a90-ccf5-4951-9e1d-502a3c48561d")
 	)
 	(label "GPIO8"
-		(at 340.36 157.48 180)
+		(at 341.63 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11320,7 +11803,7 @@
 		(uuid "6ab27892-1a61-443c-a34e-ca899fe5c4f6")
 	)
 	(label "GPIO11"
-		(at 340.36 165.1 180)
+		(at 341.63 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11330,7 +11813,7 @@
 		)
 		(uuid "6af7267c-23b3-4001-a14e-2944e0114767")
 	)
-	(label "GPIO21"
+	(label "BUTTON_X"
 		(at 232.41 237.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11341,7 +11824,7 @@
 		)
 		(uuid "6f2602da-bd2c-448f-8465-393fcb5a859f")
 	)
-	(label "GPIO11"
+	(label "BUTTON_START"
 		(at 232.41 212.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11353,7 +11836,7 @@
 		(uuid "6fa3bcb0-ad07-4cb6-9a30-dc613a914bee")
 	)
 	(label "GPIO17"
-		(at 359.41 165.1 0)
+		(at 360.68 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11363,7 +11846,7 @@
 		)
 		(uuid "6fab44bd-9ae8-4f08-8322-f977b69b4c61")
 	)
-	(label "GPIO27_ADC1"
+	(label "JOYSTICK_1"
 		(at 232.41 255.27 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11374,7 +11857,18 @@
 		)
 		(uuid "76b48c4c-94c1-4118-ad3f-333310abffdf")
 	)
-	(label "GPIO1"
+	(label "PLAYER_LED_3"
+		(at 318.77 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77c9dc5d-5107-48d3-a491-c4c260d07182")
+	)
+	(label "PLAYER_LED_1"
 		(at 232.41 186.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11408,7 +11902,7 @@
 		(uuid "7e72fa22-960a-409b-9552-b7d6306ccd73")
 	)
 	(label "GPIO4"
-		(at 340.36 147.32 180)
+		(at 341.63 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11429,7 +11923,7 @@
 		)
 		(uuid "84e12e2a-df63-4468-8d82-54bfd95095f9")
 	)
-	(label "GPIO3"
+	(label "PLAYER_LED_3"
 		(at 232.41 191.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11440,7 +11934,7 @@
 		)
 		(uuid "86ac283d-a915-4137-bf09-0c1b299c3471")
 	)
-	(label "GPIO10"
+	(label "BUTTON_SELECT"
 		(at 232.41 209.55 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11451,7 +11945,7 @@
 		)
 		(uuid "8a67e3e4-5d97-4850-90eb-9b01557df20b")
 	)
-	(label "GPIO27_ADC1"
+	(label "JOYSTICK_1"
 		(at 45.72 265.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11462,7 +11956,7 @@
 		)
 		(uuid "8c4a4eec-4378-461b-9562-77b8e6feef53")
 	)
-	(label "GPIO23"
+	(label "BUTTON_RT"
 		(at 232.41 242.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11473,8 +11967,8 @@
 		)
 		(uuid "8ec10931-b571-443a-a84b-19552a9e36bf")
 	)
-	(label "GPIO17"
-		(at 259.08 77.47 0)
+	(label "BUTTON_START"
+		(at 262.89 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11495,8 +11989,19 @@
 		)
 		(uuid "96cdad23-2bd1-4bee-bdfd-a390e1eb41d8")
 	)
+	(label "RUN"
+		(at 351.79 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cc0899b-ea8c-4fda-a8a3-ffe0b0171aa2")
+	)
 	(label "GPIO9"
-		(at 340.36 160.02 180)
+		(at 341.63 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11518,7 +12023,7 @@
 		(uuid "a41026b2-2243-4116-a7de-1cbe83dbe1f0")
 	)
 	(label "GPIO27_ADC1"
-		(at 359.41 139.7 0)
+		(at 360.68 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11529,7 +12034,7 @@
 		(uuid "a844b34c-96d8-4200-a684-c66eda5e2712")
 	)
 	(label "GPIO25"
-		(at 359.41 144.78 0)
+		(at 360.68 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11540,7 +12045,7 @@
 		(uuid "aa871ee6-e2af-48ea-af9e-86b8a650c152")
 	)
 	(label "GPIO12"
-		(at 340.36 167.64 180)
+		(at 341.63 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11562,7 +12067,7 @@
 		(uuid "ac6422e5-d4c4-4d0d-b626-674bbf4d403c")
 	)
 	(label "GPIO5"
-		(at 340.36 149.86 180)
+		(at 341.63 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11572,8 +12077,8 @@
 		)
 		(uuid "ad954dd4-8f01-4806-93a5-f1a2a1b99871")
 	)
-	(label "GPIO18"
-		(at 320.04 77.47 0)
+	(label "BUTTON_LB"
+		(at 327.66 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11595,7 +12100,7 @@
 		(uuid "b029a9ea-6d21-4859-87a1-89576f0f81bf")
 	)
 	(label "GPIO18"
-		(at 359.41 162.56 0)
+		(at 360.68 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11605,7 +12110,7 @@
 		)
 		(uuid "b0e9e2bf-ab15-4e44-bba4-a1a7d4a62121")
 	)
-	(label "GPIO2"
+	(label "PLAYER_LED_2"
 		(at 232.41 189.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11616,7 +12121,18 @@
 		)
 		(uuid "b44f8089-1105-490d-8634-35af406c13ff")
 	)
-	(label "GPIO9"
+	(label "PLAYER_LED_2"
+		(at 302.26 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5987a62-8219-4e60-a07f-d7d6a9bee3ec")
+	)
+	(label "BUTTON_0"
 		(at 232.41 207.01 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11649,7 +12165,7 @@
 		)
 		(uuid "bb5f0e30-d056-4bf6-a4ee-58249d0267ee")
 	)
-	(label "GPIO24"
+	(label "BUTTON_B"
 		(at 232.41 245.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11671,7 +12187,7 @@
 		)
 		(uuid "bc913f6b-1cc0-42b9-b1c5-85d0fa97f014")
 	)
-	(label "GPIO22"
+	(label "BUTTON_LT"
 		(at 232.41 240.03 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11682,7 +12198,7 @@
 		)
 		(uuid "bce0a61c-ee66-4e5d-b854-7adb107509e9")
 	)
-	(label "GPIO15"
+	(label "BUTTON_0"
 		(at 134.62 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11694,7 +12210,7 @@
 		(uuid "bcf627be-8212-4455-a767-614bfaa3d270")
 	)
 	(label "SWCLK"
-		(at 359.41 175.26 0)
+		(at 360.68 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11704,7 +12220,7 @@
 		)
 		(uuid "bd1ee4b4-7eef-4e2a-ab41-eb22ce16cbaf")
 	)
-	(label "GPIO19"
+	(label "BUTTON_RB"
 		(at 232.41 232.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11715,8 +12231,8 @@
 		)
 		(uuid "bda8e14f-b278-4e47-9e21-a237075e0326")
 	)
-	(label "GPIO24"
-		(at 320.04 38.1 0)
+	(label "BUTTON_B"
+		(at 327.66 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11726,7 +12242,7 @@
 		)
 		(uuid "c3c69736-30fa-4e2c-8893-3173efdfe611")
 	)
-	(label "GPIO22"
+	(label "BUTTON_LT"
 		(at 196.85 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11770,6 +12286,17 @@
 		)
 		(uuid "cc0ace1c-efb3-4c50-9f00-81e56d3aea71")
 	)
+	(label "PLAYER_LED_1"
+		(at 285.75 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce5d2b39-df75-40ac-8f7d-d692a4ea5724")
+	)
 	(label "QSPI_SCLK"
 		(at 64.77 184.15 0)
 		(fields_autoplaced yes)
@@ -11781,7 +12308,7 @@
 		)
 		(uuid "d63bbef4-046b-4827-9f29-0bf28fa28525")
 	)
-	(label "GPIO21"
+	(label "BUTTON_X"
 		(at 134.62 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11804,7 +12331,7 @@
 		(uuid "e0ce0c1f-9b1c-4179-9f8a-37b75a0aa09e")
 	)
 	(label "GPIO20"
-		(at 359.41 157.48 0)
+		(at 360.68 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11814,7 +12341,7 @@
 		)
 		(uuid "e1eab53b-6f0b-451d-ac7e-8263dc1a241c")
 	)
-	(label "GPIO26_ADC0"
+	(label "JOYSTICK_0"
 		(at 232.41 252.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11836,7 +12363,7 @@
 		)
 		(uuid "e69e43ff-9e26-4806-b8c5-94e9351930d0")
 	)
-	(label "GPIO20"
+	(label "BUTTON_Y"
 		(at 71.12 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11858,7 +12385,7 @@
 		)
 		(uuid "eaddef34-0707-4b64-9664-47adb109bea7")
 	)
-	(label "GPIO8"
+	(label "BUTTON_1"
 		(at 232.41 204.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11881,7 +12408,7 @@
 		(uuid "ed68be1f-96b1-4f29-bc47-25503c7ffe99")
 	)
 	(label "GPIO23"
-		(at 359.41 149.86 0)
+		(at 360.68 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11892,7 +12419,7 @@
 		(uuid "edd9dbe5-de7d-489c-b3e5-1c65f1e2d5e8")
 	)
 	(label "GPIO22"
-		(at 359.41 152.4 0)
+		(at 360.68 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11903,7 +12430,7 @@
 		(uuid "efc8a0b1-250a-460b-8441-aa53df1bc5b2")
 	)
 	(label "GPIO15"
-		(at 340.36 175.26 180)
+		(at 341.63 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11914,7 +12441,7 @@
 		(uuid "effc80f4-8435-4edb-8962-4a6552dcc617")
 	)
 	(label "GPIO16"
-		(at 359.41 167.64 0)
+		(at 360.68 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11925,7 +12452,7 @@
 		(uuid "f3c630ed-e1cd-49d0-a051-2126df4458c6")
 	)
 	(label "GPIO26_ADC0"
-		(at 359.41 142.24 0)
+		(at 360.68 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11936,7 +12463,7 @@
 		(uuid "f3d7c991-6d9d-4f19-aac2-c72c5ab6d9e5")
 	)
 	(label "GPIO13"
-		(at 340.36 170.18 180)
+		(at 341.63 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11947,7 +12474,7 @@
 		(uuid "f5e3659d-159d-4a6b-9452-38b5bb5167ce")
 	)
 	(label "GPIO19"
-		(at 359.41 160.02 0)
+		(at 360.68 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11957,7 +12484,7 @@
 		)
 		(uuid "f7473d4b-f0e9-44aa-8456-36e776d38585")
 	)
-	(label "GPIO16"
+	(label "BUTTON_SELECT"
 		(at 196.85 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11980,7 +12507,7 @@
 		(uuid "f9e191e0-ff91-4762-9d1e-8c449a5aa8ea")
 	)
 	(label "GPIO0"
-		(at 340.36 137.16 180)
+		(at 341.63 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11991,7 +12518,7 @@
 		(uuid "fb11c56a-0cbb-471c-8cdc-21e68c51a034")
 	)
 	(label "GPIO14"
-		(at 340.36 172.72 180)
+		(at 341.63 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12001,7 +12528,7 @@
 		)
 		(uuid "fe4a2331-fcd9-4f65-9e68-488492186657")
 	)
-	(label "GPIO26_ADC0"
+	(label "JOYSTICK_0"
 		(at 69.85 266.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12236,7 +12763,7 @@
 			(uuid "a43104b7-a901-4026-bbbb-4cf547a12c24")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U3")
 					(unit 1)
@@ -12321,7 +12848,7 @@
 			(uuid "2b26f828-29a5-4fb7-8b72-0695c8e86025")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U2")
 					(unit 1)
@@ -12386,7 +12913,7 @@
 			(uuid "f09f9493-1789-44a5-bac5-f0a29d8f74c8")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR07")
 					(unit 1)
@@ -12451,7 +12978,7 @@
 			(uuid "e08bb09d-33e7-4826-84ab-4826fa817727")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR08")
 					(unit 1)
@@ -12520,7 +13047,7 @@
 			(uuid "2516d6fa-aeb0-43a9-a505-d23ff78a2c30")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R2")
 					(unit 1)
@@ -12587,7 +13114,7 @@
 			(uuid "f78bd9f4-bda7-40a4-8410-531c54e077c9")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R1")
 					(unit 1)
@@ -12656,7 +13183,7 @@
 			(uuid "caf052ef-160e-49a8-9d8a-e9b05b8c8c9e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C5")
 					(unit 1)
@@ -12721,7 +13248,7 @@
 			(uuid "d557d490-0f96-4670-a0de-bc0a4f8849d3")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR011")
 					(unit 1)
@@ -12802,7 +13329,7 @@
 			(uuid "7f874150-4dbc-4df3-87e9-7a590a1124c6")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "J1")
 					(unit 1)
@@ -12867,7 +13394,7 @@
 			(uuid "21a06e71-3d7d-4d0f-8ac6-48d5adb9913b")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR016")
 					(unit 1)
@@ -12932,7 +13459,7 @@
 			(uuid "7cb1635e-29f6-4cbd-9c97-1806e04fd5c2")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR015")
 					(unit 1)
@@ -12999,7 +13526,7 @@
 			(uuid "50e06029-bde3-4f16-8b85-243e3427221d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R3")
 					(unit 1)
@@ -13066,7 +13593,7 @@
 			(uuid "8656e914-22bc-4b05-a61c-894a3798b323")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R4")
 					(unit 1)
@@ -13131,7 +13658,7 @@
 			(uuid "b59b7205-69a2-4f5f-9576-ca7046e343f0")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR01")
 					(unit 1)
@@ -13141,7 +13668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 340.36 179.07 0)
+		(at 341.63 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13150,7 +13677,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ee21a10")
 		(property "Reference" "#PWR020"
-			(at 340.36 185.42 0)
+			(at 341.63 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13159,7 +13686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 340.233 183.4642 0)
+			(at 341.503 156.7942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 179.07 0)
+			(at 341.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13176,7 +13703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 179.07 0)
+			(at 341.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,7 +13712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 179.07 0)
+			(at 341.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13724,7 @@
 			(uuid "e7afaa67-b956-4426-a9d6-b603d0319c4f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR020")
 					(unit 1)
@@ -13207,7 +13734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 179.07 0)
+		(at 360.68 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13215,7 +13742,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ee89ad5")
 		(property "Reference" "#PWR0101"
-			(at 359.41 185.42 0)
+			(at 360.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,7 +13751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.537 183.4642 0)
+			(at 360.807 156.7942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13232,7 +13759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 179.07 0)
+			(at 360.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,7 +13768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 179.07 0)
+			(at 360.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13250,7 +13777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 179.07 0)
+			(at 360.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13262,7 +13789,7 @@
 			(uuid "e8138523-2ed6-4b79-b3e6-81c21760c204")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR0101")
 					(unit 1)
@@ -13327,7 +13854,7 @@
 			(uuid "6dbff0d2-fe54-4f1a-b74c-c60284b7e229")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR017")
 					(unit 1)
@@ -13392,7 +13919,7 @@
 			(uuid "fcb24dc1-281e-45dc-bbb3-0289093a1cd9")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR014")
 					(unit 1)
@@ -13461,7 +13988,7 @@
 			(uuid "7bfaa999-1235-43a0-958b-842aad65fd26")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C9")
 					(unit 1)
@@ -13530,7 +14057,7 @@
 			(uuid "77a55744-7914-46d4-8e54-6597ef063cec")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C11")
 					(unit 1)
@@ -13599,7 +14126,7 @@
 			(uuid "67ae5744-dbc3-424a-acd8-847753076306")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C12")
 					(unit 1)
@@ -13668,7 +14195,7 @@
 			(uuid "99b387e4-e7ee-49e3-a990-869a636eb7c7")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C13")
 					(unit 1)
@@ -13737,7 +14264,7 @@
 			(uuid "a6544015-132b-46d8-9cfb-a6c7a4f3daa2")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C14")
 					(unit 1)
@@ -13806,7 +14333,7 @@
 			(uuid "572ea047-45cb-4ef4-ad5d-7c9d0852d151")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C15")
 					(unit 1)
@@ -13875,7 +14402,7 @@
 			(uuid "a1a390e8-d444-42b1-9d65-efbe14330e74")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C16")
 					(unit 1)
@@ -13944,7 +14471,7 @@
 			(uuid "ec143df0-2a67-4118-a539-7f1b29c1c45f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C6")
 					(unit 1)
@@ -14013,7 +14540,7 @@
 			(uuid "c7a2aee7-e729-4bd2-a8f7-eca6b1a301af")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C7")
 					(unit 1)
@@ -14082,7 +14609,7 @@
 			(uuid "dcf3fd3b-ea9a-4fae-9eb7-faa8206daa61")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C8")
 					(unit 1)
@@ -14151,7 +14678,7 @@
 			(uuid "8e49dfe2-c709-4a81-acce-30e50425c1b1")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C10")
 					(unit 1)
@@ -14214,7 +14741,7 @@
 			)
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "H1")
 					(unit 1)
@@ -14277,7 +14804,7 @@
 			)
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "H2")
 					(unit 1)
@@ -14340,7 +14867,7 @@
 			)
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "H3")
 					(unit 1)
@@ -14403,7 +14930,7 @@
 			)
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "H4")
 					(unit 1)
@@ -14468,7 +14995,7 @@
 			(uuid "b2f4ed8b-3400-4c57-ac4c-3cf7e3dcd4de")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR023")
 					(unit 1)
@@ -14533,7 +15060,7 @@
 			(uuid "4feb7e69-08a0-456b-bcc0-8e80943fcff6")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR012")
 					(unit 1)
@@ -14598,7 +15125,7 @@
 			(uuid "382e51b6-2b56-4d5b-bd01-d4619ae665d6")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR013")
 					(unit 1)
@@ -14663,7 +15190,7 @@
 			(uuid "95046561-b73a-4ae5-9bb5-d48471030e76")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR018")
 					(unit 1)
@@ -14733,7 +15260,7 @@
 			(uuid "a163136a-7ec7-4bb0-b1aa-86abf5e8bc87")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U1")
 					(unit 1)
@@ -14798,7 +15325,7 @@
 			(uuid "ad2b2a2d-6789-4373-83ba-465582862a7e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR03")
 					(unit 1)
@@ -14863,7 +15390,7 @@
 			(uuid "617a1a3b-fa75-49a9-ade9-887c395ec8a1")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR05")
 					(unit 1)
@@ -14928,7 +15455,7 @@
 			(uuid "58643039-1d05-4351-be2b-ee6286151269")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR09")
 					(unit 1)
@@ -14997,7 +15524,7 @@
 			(uuid "03f67205-9da3-4b34-84b0-4466d59a4071")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C1")
 					(unit 1)
@@ -15066,7 +15593,7 @@
 			(uuid "e6a659e6-3c77-4bb0-87e2-29d422372d75")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C4")
 					(unit 1)
@@ -15131,7 +15658,7 @@
 			(uuid "64d8ac09-8375-4e7b-b368-87c74362e2d7")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR04")
 					(unit 1)
@@ -15196,7 +15723,7 @@
 			(uuid "c537d264-3963-410b-a288-8611df6e4bf7")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR010")
 					(unit 1)
@@ -15206,7 +15733,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 346.71 213.36 0)
+		(at 240.03 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15214,7 +15741,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af967")
 		(property "Reference" "#PWR024"
-			(at 346.71 217.17 0)
+			(at 240.03 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15223,7 +15750,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 347.091 208.9658 0)
+			(at 240.411 257.2258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15231,7 +15758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 213.36 0)
+			(at 240.03 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15240,7 +15767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 213.36 0)
+			(at 240.03 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15249,7 +15776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 213.36 0)
+			(at 240.03 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15261,7 +15788,7 @@
 			(uuid "6774a9f6-a106-4af0-94e9-d985b0ea443e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR024")
 					(unit 1)
@@ -15271,7 +15798,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 346.71 219.71 0)
+		(at 240.03 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15279,7 +15806,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af96d")
 		(property "Reference" "C17"
-			(at 349.631 218.5416 0)
+			(at 242.951 266.8016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15288,7 +15815,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 349.631 220.853 0)
+			(at 242.951 269.113 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15297,7 +15824,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 347.6752 223.52 0)
+			(at 240.9952 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15306,7 +15833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 219.71 0)
+			(at 240.03 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15315,7 +15842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 219.71 0)
+			(at 240.03 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15330,7 +15857,7 @@
 			(uuid "9c4bcd7d-a7a8-4d51-ada5-1d25ec0317fe")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C17")
 					(unit 1)
@@ -15340,7 +15867,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 346.71 224.79 0)
+		(at 240.03 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15348,7 +15875,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af973")
 		(property "Reference" "#PWR025"
-			(at 346.71 231.14 0)
+			(at 240.03 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15357,7 +15884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 342.9 226.06 0)
+			(at 236.22 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15365,7 +15892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 224.79 0)
+			(at 240.03 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,7 +15901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 224.79 0)
+			(at 240.03 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15383,7 +15910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 224.79 0)
+			(at 240.03 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15395,7 +15922,7 @@
 			(uuid "bc5c3832-cdbd-4d41-85f5-0ed583839c0d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR025")
 					(unit 1)
@@ -15405,7 +15932,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 180.34 0)
+		(at 314.96 153.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15414,7 +15941,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f2f6199")
 		(property "Reference" "#PWR021"
-			(at 313.69 186.69 0)
+			(at 314.96 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15423,7 +15950,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.563 184.7342 0)
+			(at 314.833 158.0642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15431,7 +15958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 180.34 0)
+			(at 314.96 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15440,7 +15967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 180.34 0)
+			(at 314.96 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,7 +15976,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 180.34 0)
+			(at 314.96 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15461,7 +15988,7 @@
 			(uuid "361b1178-cf47-49d4-86bb-aef769332728")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR021")
 					(unit 1)
@@ -15471,7 +15998,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 180.34 0)
+		(at 387.35 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15479,7 +16006,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f2f6ecf")
 		(property "Reference" "#PWR022"
-			(at 386.08 186.69 0)
+			(at 387.35 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15488,7 +16015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.207 184.7342 0)
+			(at 387.477 158.0642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +16023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 180.34 0)
+			(at 387.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +16032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 180.34 0)
+			(at 387.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15514,7 +16041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 386.08 180.34 0)
+			(at 387.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15526,7 +16053,7 @@
 			(uuid "66c2ed31-d6f4-42e7-a6f0-be7b5837d1fb")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR022")
 					(unit 1)
@@ -15594,7 +16121,7 @@
 			(uuid "8902f4de-673d-4e2d-8dad-0b7e08d3153c")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "J2")
 					(unit 1)
@@ -15659,7 +16186,7 @@
 			(uuid "5fbcfda8-4042-4080-bc1d-1738cca09b70")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR02")
 					(unit 1)
@@ -15669,7 +16196,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 340.36 133.35 0)
+		(at 341.63 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15677,7 +16204,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f33953d")
 		(property "Reference" "#PWR019"
-			(at 340.36 137.16 0)
+			(at 341.63 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15686,7 +16213,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 340.741 128.9558 0)
+			(at 342.011 102.2858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15694,7 +16221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 133.35 0)
+			(at 341.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15703,7 +16230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 133.35 0)
+			(at 341.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15712,7 +16239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 133.35 0)
+			(at 341.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15724,7 +16251,7 @@
 			(uuid "ccac89e7-f61c-4027-9f50-b10becd2781a")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR019")
 					(unit 1)
@@ -15734,7 +16261,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x18_Odd_Even")
-		(at 377.19 154.94 0)
+		(at 378.46 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15742,7 +16269,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4b0bc9")
 		(property "Reference" "J4"
-			(at 378.46 129.1082 0)
+			(at 379.73 102.4382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15750,7 +16277,7 @@
 			)
 		)
 		(property "Value" "Conn_02x18_Odd_Even"
-			(at 378.46 131.4196 0)
+			(at 379.73 104.7496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15758,7 +16285,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical"
-			(at 377.19 154.94 0)
+			(at 378.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15767,7 +16294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 154.94 0)
+			(at 378.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15776,7 +16303,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 154.94 0)
+			(at 378.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15893,7 +16420,7 @@
 			(uuid "78e280e9-1834-4bd3-a13e-239f3cbf78b3")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "J4")
 					(unit 1)
@@ -15903,7 +16430,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x18_Odd_Even")
-		(at 320.04 154.94 0)
+		(at 321.31 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15911,7 +16438,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4b4ce4")
 		(property "Reference" "J3"
-			(at 321.31 129.1082 0)
+			(at 322.58 102.4382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15919,7 +16446,7 @@
 			)
 		)
 		(property "Value" "Conn_02x18_Odd_Even"
-			(at 321.31 131.4196 0)
+			(at 322.58 104.7496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15927,7 +16454,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical"
-			(at 320.04 154.94 0)
+			(at 321.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15936,7 +16463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 320.04 154.94 0)
+			(at 321.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15945,7 +16472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.04 154.94 0)
+			(at 321.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +16589,7 @@
 			(uuid "766f8037-f0be-4902-8f4b-ab9d36eaf842")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "J3")
 					(unit 1)
@@ -16072,7 +16599,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 72.39 0)
+		(at 280.67 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16081,7 +16608,7 @@
 		(fields_autoplaced yes)
 		(uuid "00315202-7cbc-4518-8ce5-b10c1b0288f3")
 		(property "Reference" "R25"
-			(at 275.59 71.1199 0)
+			(at 283.21 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16090,7 +16617,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 275.59 73.6599 0)
+			(at 283.21 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,7 +16626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.272 72.39 90)
+			(at 278.892 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16108,7 +16635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 72.39 0)
+			(at 280.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16117,7 +16644,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 273.05 72.39 0)
+			(at 280.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16132,7 +16659,7 @@
 			(uuid "dacb73e9-13be-4e9d-bd68-387ca2fa2ca1")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R25")
 					(unit 1)
@@ -16142,7 +16669,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 273.05 64.77 0)
+		(at 280.67 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16150,7 +16677,7 @@
 		(dnp no)
 		(uuid "03d06615-6dde-4022-a8e3-53dab0b4a9c3")
 		(property "Reference" "#PWR051"
-			(at 273.05 68.58 0)
+			(at 280.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16159,7 +16686,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 273.431 60.3758 0)
+			(at 281.051 60.3758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16167,7 +16694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 64.77 0)
+			(at 280.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16176,7 +16703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 64.77 0)
+			(at 280.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16185,7 +16712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 64.77 0)
+			(at 280.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,7 +16724,7 @@
 			(uuid "060ee3b1-05aa-4fb0-85ef-9c6b2b2f160e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR051")
 					(unit 1)
@@ -16277,7 +16804,7 @@
 			(uuid "1cb427fc-9bdd-482d-958f-b1f7cfea6ec8")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U9")
 					(unit 1)
@@ -16287,7 +16814,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 351.79 43.18 0)
+		(at 360.68 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16295,7 +16822,7 @@
 		(dnp no)
 		(uuid "0b7fc0e9-700c-4834-b6cf-bc428ec3a9f9")
 		(property "Reference" "C28"
-			(at 355.6 41.2749 0)
+			(at 364.49 41.2749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16304,7 +16831,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 355.6 44.196 0)
+			(at 364.49 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16313,7 +16840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 43.18 0)
+			(at 360.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16322,7 +16849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 43.18 0)
+			(at 360.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16331,7 +16858,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 351.79 43.18 0)
+			(at 360.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16346,7 +16873,7 @@
 			(uuid "6ed8949f-c0ca-4010-8277-e8a31ac0872d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C28")
 					(unit 1)
@@ -16415,9 +16942,79 @@
 			(uuid "a803eb7e-dd41-492d-b55f-e9e07d7a322e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 274.32 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d83da37-0802-4128-92d5-ce064b6a6e15")
+		(property "Reference" "R35"
+			(at 276.86 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 276.86 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 272.542 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec8cb359-eedd-48ec-9f8b-22216b4877a2")
+		)
+		(pin "2"
+			(uuid "7018970b-2a0b-49fe-b1e4-b264ff79b4a8")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -16485,7 +17082,7 @@
 			(uuid "63db56ce-303d-42b0-8e8d-f955c9d1d096")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R19")
 					(unit 1)
@@ -16495,7 +17092,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 335.28 44.45 90)
+		(at 344.17 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16504,7 +17101,7 @@
 		(fields_autoplaced yes)
 		(uuid "116a019a-bf0d-4281-ae13-aed8b5fb8b77")
 		(property "Reference" "SW11"
-			(at 336.55 43.1799 90)
+			(at 345.44 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16513,7 +17110,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 336.55 45.7199 90)
+			(at 345.44 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16522,7 +17119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 44.45 0)
+			(at 339.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16531,7 +17128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 44.45 0)
+			(at 339.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16540,7 +17137,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 335.28 44.45 0)
+			(at 344.17 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16555,7 +17152,7 @@
 			(uuid "87aa4894-18ff-4589-9244-4204942a7348")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW11")
 					(unit 1)
@@ -16623,7 +17220,7 @@
 			(uuid "4f1a9100-19b3-4025-9d9e-87547149765e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R20")
 					(unit 1)
@@ -16633,7 +17230,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 228.6 43.18 0)
+		(at 232.41 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16641,7 +17238,7 @@
 		(dnp no)
 		(uuid "120d9d21-ff13-44ae-83ea-b60b3e835e11")
 		(property "Reference" "C18"
-			(at 232.41 41.2749 0)
+			(at 236.22 41.2749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16650,7 +17247,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 232.41 44.196 0)
+			(at 236.22 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16659,7 +17256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 43.18 0)
+			(at 232.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16668,7 +17265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 43.18 0)
+			(at 232.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16677,7 +17274,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 228.6 43.18 0)
+			(at 232.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +17289,7 @@
 			(uuid "82d5b9b7-5d1e-42dd-b798-870989b610b1")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C18")
 					(unit 1)
@@ -16702,7 +17299,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 77.47 90)
+		(at 227.33 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16711,7 +17308,7 @@
 		(fields_autoplaced yes)
 		(uuid "1607509a-b2e1-4304-b2a9-8a32ef128bd6")
 		(property "Reference" "R14"
-			(at 223.52 71.12 90)
+			(at 227.33 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16719,7 +17316,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 223.52 73.66 90)
+			(at 227.33 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16727,7 +17324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 79.248 90)
+			(at 227.33 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16736,7 +17333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 77.47 0)
+			(at 227.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16745,7 +17342,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 223.52 77.47 0)
+			(at 227.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16760,7 +17357,7 @@
 			(uuid "e8c02f91-3b79-434a-9c39-0508bffaf3b8")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R14")
 					(unit 1)
@@ -16770,7 +17367,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:SN74LVC1G14DBV")
-		(at 306.07 38.1 0)
+		(at 313.69 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16779,7 +17376,7 @@
 		(fields_autoplaced yes)
 		(uuid "165cda07-21f4-4f71-807e-3f1201652dd0")
 		(property "Reference" "U12"
-			(at 321.31 31.7814 0)
+			(at 328.93 31.7814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16787,7 +17384,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBV"
-			(at 321.31 34.3214 0)
+			(at 328.93 34.3214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16795,7 +17392,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 306.07 44.45 0)
+			(at 313.69 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16806,7 +17403,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
-			(at 306.07 46.99 0)
+			(at 313.69 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16816,7 +17413,7 @@
 			)
 		)
 		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
-			(at 306.07 38.1 0)
+			(at 313.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16840,7 +17437,7 @@
 			(uuid "8fe29042-36bb-47f6-b227-08b8bdfa798f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U12")
 					(unit 1)
@@ -16910,7 +17507,7 @@
 			(uuid "c8139a73-2438-4591-a114-36e37743f089")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW3")
 					(unit 1)
@@ -16920,7 +17517,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 284.48 38.1 90)
+		(at 292.1 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16929,7 +17526,7 @@
 		(fields_autoplaced yes)
 		(uuid "266d72ae-cf52-4dcb-92e0-041043d467e9")
 		(property "Reference" "R24"
-			(at 284.48 31.75 90)
+			(at 292.1 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16937,7 +17534,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 284.48 34.29 90)
+			(at 292.1 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16945,7 +17542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 39.878 90)
+			(at 292.1 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16954,7 +17551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 284.48 38.1 0)
+			(at 292.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16963,7 +17560,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 284.48 38.1 0)
+			(at 292.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16978,7 +17575,7 @@
 			(uuid "4da4052e-802e-496a-82ad-3f1fb44ce91b")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R24")
 					(unit 1)
@@ -17043,7 +17640,7 @@
 			(uuid "d33b4225-152a-4f34-a126-b7a2c0d5d739")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR042")
 					(unit 1)
@@ -17053,7 +17650,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:SN74LVC1G14DBV")
-		(at 245.11 77.47 0)
+		(at 248.92 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17062,7 +17659,7 @@
 		(fields_autoplaced yes)
 		(uuid "28b85fa7-b5ee-421e-918e-fe9d5e28c83d")
 		(property "Reference" "U7"
-			(at 260.35 71.1514 0)
+			(at 264.16 71.1514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17070,7 +17667,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBV"
-			(at 260.35 73.6914 0)
+			(at 264.16 73.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17078,7 +17675,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 245.11 83.82 0)
+			(at 248.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17089,7 +17686,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
-			(at 245.11 86.36 0)
+			(at 248.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17099,7 +17696,7 @@
 			)
 		)
 		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
-			(at 245.11 77.47 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17123,7 +17720,7 @@
 			(uuid "80a6a57a-4e9d-4906-916b-3402533c8c70")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U7")
 					(unit 1)
@@ -17192,9 +17789,150 @@
 			(uuid "7dff4e11-ec1b-4fc9-9870-85f4635e8e26")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 307.34 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a0c9c6b-dc90-4b6d-93ea-04d98bc42704")
+		(property "Reference" "R33"
+			(at 309.88 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 309.88 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 305.562 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 307.34 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fc4920f-fb03-4b6c-b910-c9cf4a739b1c")
+		)
+		(pin "2"
+			(uuid "d653ebca-ae9d-4959-8827-145850778b42")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 274.32 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c3749d2-a97b-457e-afb7-f580da429585")
+		(property "Reference" "D5"
+			(at 278.13 221.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 278.13 223.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 274.32 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb6f00ab-b944-43b2-8f6e-53111317ecae")
+		)
+		(pin "2"
+			(uuid "922ddbbc-be41-4cd1-af60-57c4f27bc6dd")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -17257,7 +17995,7 @@
 			(uuid "c70a9fea-5758-4e01-ba74-a8a9c840682e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR043")
 					(unit 1)
@@ -17322,7 +18060,7 @@
 			(uuid "75e7ec92-4dcd-4a2a-8949-0593d376ef4d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR037")
 					(unit 1)
@@ -17387,7 +18125,7 @@
 			(uuid "7de57f78-e652-4a71-a5e8-06c11341aeef")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR041")
 					(unit 1)
@@ -17457,7 +18195,7 @@
 			(uuid "cd3ac1c8-e6c1-4dac-a880-8171ec0ed2cb")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW8")
 					(unit 1)
@@ -17525,7 +18263,7 @@
 			(uuid "b896dd92-6c79-4f4a-84d4-a286e6c241ed")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R16")
 					(unit 1)
@@ -17534,16 +18272,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 212.09 64.77 0)
+		(lib_id "power:GND")
+		(at 323.85 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c22899f-922a-4dd8-a9a9-986633c3a1b0")
-		(property "Reference" "#PWR039"
-			(at 212.09 68.58 0)
+		(uuid "3a2032f4-d6b7-49c1-8d3c-e532058c1685")
+		(property "Reference" "#PWR059"
+			(at 323.85 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17551,8 +18289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 212.471 60.3758 0)
+		(property "Value" "GND"
+			(at 323.977 243.1542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17560,7 +18298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 64.77 0)
+			(at 323.85 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17569,7 +18307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 64.77 0)
+			(at 323.85 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17578,7 +18316,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 64.77 0)
+			(at 323.85 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d59959b9-a850-4329-8fb6-3ef6dcc02636")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 215.9 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c22899f-922a-4dd8-a9a9-986633c3a1b0")
+		(property "Reference" "#PWR039"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 216.281 60.3758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17590,7 +18393,7 @@
 			(uuid "cb5e5d28-796a-4f28-a033-97a3118b685b")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR039")
 					(unit 1)
@@ -17599,8 +18402,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 290.83 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d4574b4-2daf-4e46-b891-f9e74ca3a76e")
+		(property "Reference" "#PWR061"
+			(at 290.83 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.957 243.1542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98306b10-493c-4fb6-b95b-35d4506a2233")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 289.56 43.18 0)
+		(at 297.18 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17608,7 +18476,7 @@
 		(dnp no)
 		(uuid "3dbc0187-f0d8-4bc1-9948-a9f910fa47f2")
 		(property "Reference" "C26"
-			(at 293.37 41.2749 0)
+			(at 300.99 41.2749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17617,7 +18485,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 293.37 44.196 0)
+			(at 300.99 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17626,7 +18494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 43.18 0)
+			(at 297.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17635,7 +18503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 43.18 0)
+			(at 297.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17644,7 +18512,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 289.56 43.18 0)
+			(at 297.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17659,7 +18527,7 @@
 			(uuid "4be6e586-4c2e-4ae4-bae3-353401d52a16")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C26")
 					(unit 1)
@@ -17669,16 +18537,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 273.05 83.82 90)
+		(at 280.67 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e41570f-4cc8-4d19-b994-abf5f76b3a5f")
 		(property "Reference" "SW10"
-			(at 274.32 82.5499 90)
+			(at 281.94 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17687,7 +18554,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 274.32 85.0899 90)
+			(at 281.94 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17696,7 +18563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 83.82 0)
+			(at 275.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17705,7 +18572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 83.82 0)
+			(at 275.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17714,7 +18581,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 273.05 83.82 0)
+			(at 280.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17729,7 +18596,7 @@
 			(uuid "f7ba5ee4-facf-4c51-83b5-ed46715f0a6d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW10")
 					(unit 1)
@@ -17804,7 +18671,7 @@
 			(uuid "1aded245-46a1-4697-b8a1-d287a38ac554")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "Y1")
 					(unit 1)
@@ -17875,7 +18742,7 @@
 			(uuid "c37efb5f-8929-43b7-9858-11e6e2018d32")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR027")
 					(unit 1)
@@ -17891,7 +18758,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 38.1 90)
+		(at 227.33 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17900,7 +18767,7 @@
 		(fields_autoplaced yes)
 		(uuid "47ad3cd1-5714-443b-b350-bdde6d55fc6f")
 		(property "Reference" "R8"
-			(at 223.52 31.75 90)
+			(at 227.33 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17908,7 +18775,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 223.52 34.29 90)
+			(at 227.33 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17916,7 +18783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 39.878 90)
+			(at 227.33 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17925,7 +18792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 38.1 0)
+			(at 227.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17934,7 +18801,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 223.52 38.1 0)
+			(at 227.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17949,7 +18816,7 @@
 			(uuid "6bfabcc5-d53f-4929-bd48-ece085824840")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R8")
 					(unit 1)
@@ -18022,7 +18889,7 @@
 			(uuid "cf023b49-a190-4259-9625-56d953b2a112")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "RV1")
 					(unit 1)
@@ -18090,7 +18957,7 @@
 			(uuid "2ec66114-10e2-441d-a516-466ca01579c2")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R18")
 					(unit 1)
@@ -18155,7 +19022,7 @@
 			(uuid "3e0d861c-84d8-48f0-bfd7-d0c4c1086750")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR048")
 					(unit 1)
@@ -18165,7 +19032,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 33.02 0)
+		(at 280.67 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18174,7 +19041,7 @@
 		(fields_autoplaced yes)
 		(uuid "4edeb6a2-d56f-46df-a93c-02cebfe37707")
 		(property "Reference" "R23"
-			(at 275.59 31.7499 0)
+			(at 283.21 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18183,7 +19050,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 275.59 34.2899 0)
+			(at 283.21 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18192,7 +19059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.272 33.02 90)
+			(at 278.892 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18201,7 +19068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 33.02 0)
+			(at 280.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18210,7 +19077,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 273.05 33.02 0)
+			(at 280.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18225,7 +19092,7 @@
 			(uuid "17182419-202f-4cb5-949a-e1f777335d8d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R23")
 					(unit 1)
@@ -18235,7 +19102,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 212.09 44.45 90)
+		(at 215.9 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18244,7 +19111,7 @@
 		(fields_autoplaced yes)
 		(uuid "4efcac33-dac1-44b4-bbbb-4e3e527a21dc")
 		(property "Reference" "SW1"
-			(at 213.36 43.1799 90)
+			(at 217.17 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18253,7 +19120,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 213.36 45.7199 90)
+			(at 217.17 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18262,7 +19129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 44.45 0)
+			(at 210.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18271,7 +19138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 44.45 0)
+			(at 210.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18280,7 +19147,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 212.09 44.45 0)
+			(at 215.9 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18295,7 +19162,7 @@
 			(uuid "e419c68c-dc8a-43eb-8a92-48dfde1d5d6d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW1")
 					(unit 1)
@@ -18363,7 +19230,7 @@
 			(uuid "31274707-d27e-440c-91fc-7a0ec076ffae")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R10")
 					(unit 1)
@@ -18428,7 +19295,7 @@
 			(uuid "cf42f643-aa18-4d70-9c66-34fc88f25833")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR046")
 					(unit 1)
@@ -18438,7 +19305,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:SN74LVC1G14DBV")
-		(at 245.11 38.1 0)
+		(at 248.92 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18447,7 +19314,7 @@
 		(fields_autoplaced yes)
 		(uuid "5259a8de-5fc3-4741-81c9-96b672b910c1")
 		(property "Reference" "U4"
-			(at 260.35 31.7814 0)
+			(at 264.16 31.7814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18455,7 +19322,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBV"
-			(at 260.35 34.3214 0)
+			(at 264.16 34.3214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18463,7 +19330,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 245.11 44.45 0)
+			(at 248.92 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18474,7 +19341,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
-			(at 245.11 46.99 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18484,7 +19351,7 @@
 			)
 		)
 		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
-			(at 245.11 38.1 0)
+			(at 248.92 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18508,7 +19375,7 @@
 			(uuid "fd61998d-5309-4bc8-ab48-a779cb5d4d2d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U4")
 					(unit 1)
@@ -18577,7 +19444,7 @@
 			(uuid "b0b493e2-71c2-4c9a-8491-27c7fed6f601")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C2")
 					(unit 1)
@@ -18592,8 +19459,79 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 307.34 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59013b08-ce2f-407c-ba79-f7c494ee86f4")
+		(property "Reference" "D3"
+			(at 311.15 221.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 311.15 223.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 307.34 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "844f34ec-a6b2-47c2-81fd-f1eaa8cb980b")
+		)
+		(pin "2"
+			(uuid "08e7fc3c-1287-4b7a-8201-4264fc1fc895")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 273.05 25.4 0)
+		(at 280.67 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18601,7 +19539,7 @@
 		(dnp no)
 		(uuid "5b24fe95-7a46-4dd3-8098-b8d442de758e")
 		(property "Reference" "#PWR049"
-			(at 273.05 29.21 0)
+			(at 280.67 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18610,7 +19548,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 273.431 21.0058 0)
+			(at 281.051 21.0058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18618,7 +19556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 25.4 0)
+			(at 280.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18627,7 +19565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 25.4 0)
+			(at 280.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18636,7 +19574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 25.4 0)
+			(at 280.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18648,7 +19586,7 @@
 			(uuid "56a95045-ce44-449b-b2c3-34dafbdbc3f9")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR049")
 					(unit 1)
@@ -18717,7 +19655,7 @@
 			(uuid "109065c0-d7ad-446d-b924-2e6b59a17328")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C19")
 					(unit 1)
@@ -18727,7 +19665,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 91.44 0)
+		(at 215.9 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18735,7 +19673,7 @@
 		(dnp no)
 		(uuid "5cd9f1a9-ed1b-4acf-91da-3ae66fe30eeb")
 		(property "Reference" "#PWR040"
-			(at 212.09 97.79 0)
+			(at 215.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18744,7 +19682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 95.25 0)
+			(at 215.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18752,7 +19690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 91.44 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18761,7 +19699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 91.44 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18770,7 +19708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 91.44 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18782,7 +19720,7 @@
 			(uuid "2172f8e7-e2c6-4603-86bf-c7e31b00f1f9")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR040")
 					(unit 1)
@@ -18847,9 +19785,74 @@
 			(uuid "c33ce72f-afc3-4699-8eb0-a9e2e333286f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 375.92 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65032b4b-275f-48aa-8812-ee0470a69f6a")
+		(property "Reference" "#PWR058"
+			(at 375.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 376.301 179.7558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bbc79b0-df3e-493b-aeae-bfbce29d6f40")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18912,7 +19915,7 @@
 			(uuid "1a418e4e-d6b4-419a-ae94-388e3fe1c745")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR047")
 					(unit 1)
@@ -18922,7 +19925,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:SN74LVC1G14DBV")
-		(at 368.3 38.1 0)
+		(at 377.19 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18931,7 +19934,7 @@
 		(fields_autoplaced yes)
 		(uuid "690aec0f-e539-4ec4-bae4-8a9d1786a8bc")
 		(property "Reference" "U14"
-			(at 383.54 31.7814 0)
+			(at 392.43 31.7814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18939,7 +19942,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBV"
-			(at 383.54 34.3214 0)
+			(at 392.43 34.3214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18947,7 +19950,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 368.3 44.45 0)
+			(at 377.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18958,7 +19961,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
-			(at 368.3 46.99 0)
+			(at 377.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18968,7 +19971,7 @@
 			)
 		)
 		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
-			(at 368.3 38.1 0)
+			(at 377.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18992,9 +19995,74 @@
 			(uuid "4f4847dd-57fb-4c44-8940-e336a5ff3bfc")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 375.92 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69dac7ac-0de1-43e9-9240-eb05f4413db9")
+		(property "Reference" "#PWR057"
+			(at 375.92 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 376.047 221.5642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0772ddf7-5ee3-48cd-aafa-329f9df390d6")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -19062,7 +20130,7 @@
 			(uuid "2b1fe336-5920-4b50-95f5-17eb9e0e6c7f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R17")
 					(unit 1)
@@ -19127,9 +20195,74 @@
 			(uuid "7f26bf2a-8bcd-4c43-85ed-3ec1e66d57ed")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d4ce138-1c2f-4d4e-925b-e6f2395f5b55")
+		(property "Reference" "#PWR062"
+			(at 274.32 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.447 243.1542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc15d6e4-960d-4c8f-baa5-8d7caa75f0fe")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -19207,7 +20340,7 @@
 			(uuid "0a000606-efb4-478e-a5e9-435d15e9930d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U10")
 					(unit 1)
@@ -19274,7 +20407,7 @@
 			(uuid "15cfb8b8-17db-4f95-a15c-7a42bee94f01")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR028")
 					(unit 1)
@@ -19343,9 +20476,80 @@
 			(uuid "aa7500b5-f2ef-48d5-b5b6-dba55807713a")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 323.85 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e8a4325-ed79-4c2f-81cc-eedc52082575")
+		(property "Reference" "D2"
+			(at 327.66 221.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 327.66 223.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 323.85 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4b27abe-4492-499b-9e42-338c32a83231")
+		)
+		(pin "2"
+			(uuid "8254c75e-22a1-454d-8c13-d93605d007da")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -19413,7 +20617,7 @@
 			(uuid "b59d0f7b-3bf5-4929-ba64-04b22cc7a51f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW6")
 					(unit 1)
@@ -19483,7 +20687,7 @@
 			(uuid "8df40616-5cf0-4239-8210-694c2fc75e81")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R9")
 					(unit 1)
@@ -19548,7 +20752,7 @@
 			(uuid "04b2cbeb-a3a9-4c32-91c2-bb28af1c62b8")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR044")
 					(unit 1)
@@ -19558,16 +20762,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 273.05 44.45 90)
+		(at 280.67 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84541978-4ffa-4b1b-8e1c-d970475fb766")
 		(property "Reference" "SW9"
-			(at 274.32 43.1799 90)
+			(at 281.94 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19576,7 +20779,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 274.32 45.7199 90)
+			(at 281.94 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19585,7 +20788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 44.45 0)
+			(at 275.59 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19594,7 +20797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 44.45 0)
+			(at 275.59 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19603,7 +20806,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 273.05 44.45 0)
+			(at 280.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19618,7 +20821,7 @@
 			(uuid "5bf767e7-5640-42a9-8959-21491b606727")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW9")
 					(unit 1)
@@ -19628,7 +20831,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 335.28 91.44 0)
+		(at 344.17 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19636,7 +20839,7 @@
 		(dnp no)
 		(uuid "8cddc3d7-6380-45ca-a099-c6a5de79583d")
 		(property "Reference" "#PWR056"
-			(at 335.28 97.79 0)
+			(at 344.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19645,7 +20848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 95.25 0)
+			(at 344.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19653,7 +20856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 91.44 0)
+			(at 344.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19662,7 +20865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 91.44 0)
+			(at 344.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19671,7 +20874,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.28 91.44 0)
+			(at 344.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19683,7 +20886,7 @@
 			(uuid "2f133e4f-a36c-4d95-9144-c5e552c3f4c7")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR056")
 					(unit 1)
@@ -19693,7 +20896,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 335.28 72.39 0)
+		(at 344.17 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19702,7 +20905,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f87c60e-d45e-485b-882a-b79bb1cf6ca8")
 		(property "Reference" "R29"
-			(at 337.82 71.1199 0)
+			(at 346.71 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19711,7 +20914,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 337.82 73.6599 0)
+			(at 346.71 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19720,7 +20923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 333.502 72.39 90)
+			(at 342.392 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19729,7 +20932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 72.39 0)
+			(at 344.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19738,7 +20941,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 335.28 72.39 0)
+			(at 344.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19753,7 +20956,7 @@
 			(uuid "476d4704-6461-4541-965c-ffcd83d83390")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R29")
 					(unit 1)
@@ -19763,7 +20966,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 212.09 25.4 0)
+		(at 215.9 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19771,7 +20974,7 @@
 		(dnp no)
 		(uuid "8f8aabef-35fc-4712-8ebf-2bd1b4d4bd06")
 		(property "Reference" "#PWR030"
-			(at 212.09 29.21 0)
+			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19780,7 +20983,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 212.471 21.0058 0)
+			(at 216.281 21.0058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19788,7 +20991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 25.4 0)
+			(at 215.9 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19797,7 +21000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 25.4 0)
+			(at 215.9 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19806,7 +21009,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 25.4 0)
+			(at 215.9 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19818,7 +21021,7 @@
 			(uuid "fa8ac953-a831-4917-a86a-6669e47b9e27")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR030")
 					(unit 1)
@@ -19828,7 +21031,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 212.09 83.82 90)
+		(at 215.9 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19837,7 +21040,7 @@
 		(fields_autoplaced yes)
 		(uuid "938350b5-0316-4373-96cc-12b1f115219e")
 		(property "Reference" "SW4"
-			(at 213.36 82.5499 90)
+			(at 217.17 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19846,7 +21049,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 213.36 85.0899 90)
+			(at 217.17 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19855,7 +21058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 83.82 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19864,7 +21067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 83.82 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19873,7 +21076,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 212.09 83.82 0)
+			(at 215.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19888,7 +21091,7 @@
 			(uuid "8d5e76aa-c852-4ff2-88c6-bbfa24092474")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW4")
 					(unit 1)
@@ -19955,7 +21158,7 @@
 			(uuid "6c15742b-f2f5-4474-b829-d9d76ac8feea")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R5")
 					(unit 1)
@@ -19971,7 +21174,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 91.44 0)
+		(at 280.67 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19979,7 +21182,7 @@
 		(dnp no)
 		(uuid "973d8f58-ee2d-434d-b863-05d3ea280378")
 		(property "Reference" "#PWR052"
-			(at 273.05 97.79 0)
+			(at 280.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19988,7 +21191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 95.25 0)
+			(at 280.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19996,7 +21199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 91.44 0)
+			(at 280.67 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20005,7 +21208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 91.44 0)
+			(at 280.67 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20014,7 +21217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 91.44 0)
+			(at 280.67 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20026,7 +21229,7 @@
 			(uuid "35b4f5fb-ac74-4e19-9dc6-62c5bf31fca1")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR052")
 					(unit 1)
@@ -20096,7 +21299,7 @@
 			(uuid "4de92c95-adf4-49be-919d-1c9f8491bf25")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R6")
 					(unit 1)
@@ -20166,7 +21369,7 @@
 			(uuid "93c2aeb8-a585-499a-8ac9-22570bba2809")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW5")
 					(unit 1)
@@ -20231,7 +21434,7 @@
 			(uuid "347f4006-2607-45ee-8ba3-981021b8473a")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR031")
 					(unit 1)
@@ -20241,7 +21444,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 52.07 0)
+		(at 280.67 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20249,7 +21452,7 @@
 		(dnp no)
 		(uuid "9b7ff2d0-2dab-4603-92ee-7c5a7f96e1ae")
 		(property "Reference" "#PWR050"
-			(at 273.05 58.42 0)
+			(at 280.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20258,7 +21461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 55.88 0)
+			(at 280.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20266,7 +21469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 52.07 0)
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20275,7 +21478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 52.07 0)
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20284,7 +21487,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 52.07 0)
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20296,7 +21499,7 @@
 			(uuid "acd8df8b-c4a2-4d85-a0fd-d9cacdc8cb79")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR050")
 					(unit 1)
@@ -20364,7 +21567,7 @@
 			(uuid "3831a9a0-638d-43eb-89c4-8d30ecebc186")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R12")
 					(unit 1)
@@ -20433,7 +21636,7 @@
 			(uuid "d7bb7162-be09-4751-a43a-c59c95caaa2f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C22")
 					(unit 1)
@@ -20498,7 +21701,7 @@
 			(uuid "24f6efc7-e5f2-4da1-a630-7ddcf851366b")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR032")
 					(unit 1)
@@ -20508,7 +21711,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 335.28 52.07 0)
+		(at 344.17 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20516,7 +21719,7 @@
 		(dnp no)
 		(uuid "a8c8c69d-2b2f-4c5c-8979-bc5f1f120290")
 		(property "Reference" "#PWR054"
-			(at 335.28 58.42 0)
+			(at 344.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20525,7 +21728,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 55.88 0)
+			(at 344.17 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20533,7 +21736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 52.07 0)
+			(at 344.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20542,7 +21745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 52.07 0)
+			(at 344.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20551,7 +21754,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.28 52.07 0)
+			(at 344.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20563,7 +21766,7 @@
 			(uuid "3aca82c0-24c6-4aa4-ac3f-ef273d62048f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR054")
 					(unit 1)
@@ -20573,7 +21776,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 228.6 82.55 0)
+		(at 232.41 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20581,7 +21784,7 @@
 		(dnp no)
 		(uuid "aa81f9e4-4e61-4735-9dc3-40da58d71f7b")
 		(property "Reference" "C21"
-			(at 232.41 80.6449 0)
+			(at 236.22 80.6449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20590,7 +21793,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 232.41 83.566 0)
+			(at 236.22 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20599,7 +21802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 82.55 0)
+			(at 232.41 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20608,7 +21811,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 82.55 0)
+			(at 232.41 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +21820,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 228.6 82.55 0)
+			(at 232.41 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20632,7 +21835,7 @@
 			(uuid "77d5dbb6-604c-455a-9c9f-d77508f728a3")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C21")
 					(unit 1)
@@ -20697,7 +21900,7 @@
 			(uuid "2e3d4125-b4a6-4a10-a6ec-c99aa2177d0f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR045")
 					(unit 1)
@@ -20777,7 +21980,7 @@
 			(uuid "d754ff10-a5ff-4a19-ac34-580a01376c85")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U8")
 					(unit 1)
@@ -20787,7 +21990,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 33.02 0)
+		(at 215.9 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20796,7 +21999,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac93c095-3ea8-4940-a473-43232a314c59")
 		(property "Reference" "R7"
-			(at 214.63 31.7499 0)
+			(at 218.44 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20805,7 +22008,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 214.63 34.2899 0)
+			(at 218.44 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20814,7 +22017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.312 33.02 90)
+			(at 214.122 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20823,7 +22026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 33.02 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20832,7 +22035,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 33.02 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20847,7 +22050,7 @@
 			(uuid "cf3f8112-7cde-4c0e-8e43-3df4e133b5aa")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R7")
 					(unit 1)
@@ -20857,7 +22060,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 335.28 64.77 0)
+		(at 344.17 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20865,7 +22068,7 @@
 		(dnp no)
 		(uuid "b291c0e5-1b0e-481a-ad05-1e1db79c12a8")
 		(property "Reference" "#PWR055"
-			(at 335.28 68.58 0)
+			(at 344.17 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20874,7 +22077,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 335.661 60.3758 0)
+			(at 344.551 60.3758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20882,7 +22085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 64.77 0)
+			(at 344.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20891,7 +22094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 64.77 0)
+			(at 344.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20900,7 +22103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.28 64.77 0)
+			(at 344.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20912,7 +22115,7 @@
 			(uuid "209f1914-8534-49dc-91ea-d6f5cb20e77f")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR055")
 					(unit 1)
@@ -20922,7 +22125,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 72.39 0)
+		(at 215.9 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20931,7 +22134,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4594bc8-e528-43ab-9019-9a6772c96c5a")
 		(property "Reference" "R13"
-			(at 214.63 71.1199 0)
+			(at 218.44 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20940,7 +22143,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 214.63 73.6599 0)
+			(at 218.44 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20949,7 +22152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.312 72.39 90)
+			(at 214.122 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20958,7 +22161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 72.39 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20967,7 +22170,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 72.39 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20982,7 +22185,7 @@
 			(uuid "34d8ff77-928c-43a2-93c9-8e93ed65c8f8")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R13")
 					(unit 1)
@@ -21052,7 +22255,7 @@
 			(uuid "057d4322-1fcc-4c82-8605-8072125d827b")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW7")
 					(unit 1)
@@ -21122,7 +22325,7 @@
 			(uuid "1252d2b5-4335-4e34-8bd5-2daea32087a3")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R21")
 					(unit 1)
@@ -21195,7 +22398,7 @@
 			(uuid "ec8e1631-234d-403d-ad27-f6a8934b8fe4")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "RV2")
 					(unit 1)
@@ -21263,7 +22466,7 @@
 			(uuid "3f85a983-4adc-49ab-a92d-259bd6767b6e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R22")
 					(unit 1)
@@ -21273,7 +22476,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 346.71 38.1 90)
+		(at 355.6 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21282,7 +22485,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1c09bfe-e90c-40be-aa37-3899678b926d")
 		(property "Reference" "R28"
-			(at 346.71 31.75 90)
+			(at 355.6 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21290,7 +22493,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 346.71 34.29 90)
+			(at 355.6 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21298,7 +22501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 39.878 90)
+			(at 355.6 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21307,7 +22510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 38.1 0)
+			(at 355.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21316,7 +22519,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 346.71 38.1 0)
+			(at 355.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21331,7 +22534,7 @@
 			(uuid "d32296d0-0967-4bbd-92fc-52a827a03372")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R28")
 					(unit 1)
@@ -21341,7 +22544,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:SN74LVC1G14DBV")
-		(at 368.3 77.47 0)
+		(at 377.19 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21350,7 +22553,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4828ade-03e6-45e6-9cbf-da8bbaf9b00e")
 		(property "Reference" "U15"
-			(at 383.54 71.1514 0)
+			(at 392.43 71.1514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21358,7 +22561,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBV"
-			(at 383.54 73.6914 0)
+			(at 392.43 73.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21366,7 +22569,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 368.3 83.82 0)
+			(at 377.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21377,7 +22580,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
-			(at 368.3 86.36 0)
+			(at 377.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21387,7 +22590,7 @@
 			)
 		)
 		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
-			(at 368.3 77.47 0)
+			(at 377.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21411,7 +22614,7 @@
 			(uuid "114f5bca-9c33-458a-910d-5972fb2814db")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U15")
 					(unit 1)
@@ -21421,7 +22624,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 335.28 25.4 0)
+		(at 344.17 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21429,7 +22632,7 @@
 		(dnp no)
 		(uuid "c80a176c-94b5-4dfa-92a5-69889b433ae3")
 		(property "Reference" "#PWR053"
-			(at 335.28 29.21 0)
+			(at 344.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21438,7 +22641,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 335.661 21.0058 0)
+			(at 344.551 21.0058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21446,7 +22649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 25.4 0)
+			(at 344.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21455,7 +22658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 25.4 0)
+			(at 344.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21464,7 +22667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.28 25.4 0)
+			(at 344.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21476,7 +22679,7 @@
 			(uuid "91106ad0-33d7-4e47-a1e8-8b1107bed40c")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR053")
 					(unit 1)
@@ -21486,7 +22689,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 289.56 82.55 0)
+		(at 297.18 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21494,7 +22697,7 @@
 		(dnp no)
 		(uuid "c84b9603-e2d3-4a8e-a6a7-f1e901128021")
 		(property "Reference" "C27"
-			(at 293.37 80.6449 0)
+			(at 300.99 80.6449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21503,7 +22706,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 293.37 83.566 0)
+			(at 300.99 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21512,7 +22715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 82.55 0)
+			(at 297.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21521,7 +22724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 82.55 0)
+			(at 297.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21530,7 +22733,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 289.56 82.55 0)
+			(at 297.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21545,7 +22748,7 @@
 			(uuid "af53db05-f0c3-41ea-9144-91eb322ae53c")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C27")
 					(unit 1)
@@ -21610,7 +22813,7 @@
 			(uuid "1eb81cd8-a60a-4a28-8dce-1e21658ade73")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR034")
 					(unit 1)
@@ -21680,7 +22883,7 @@
 			(uuid "4389b3f9-42f7-4fe5-bf7c-77baaf9fc572")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW2")
 					(unit 1)
@@ -21749,7 +22952,7 @@
 			(uuid "5acc60a2-48b8-421b-981f-52f8dcd90bd4")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C24")
 					(unit 1)
@@ -21829,7 +23032,7 @@
 			(uuid "18d5ae75-3901-409b-8c4e-a7813b588165")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U5")
 					(unit 1)
@@ -21899,7 +23102,7 @@
 			(uuid "eaf9a8a7-0f57-4eec-921a-06c44958b372")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R15")
 					(unit 1)
@@ -21909,7 +23112,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 346.71 77.47 90)
+		(at 355.6 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21918,7 +23121,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccaa1b07-8c95-4cd1-bd1f-417081866c5d")
 		(property "Reference" "R30"
-			(at 346.71 71.12 90)
+			(at 355.6 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21926,7 +23129,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 346.71 73.66 90)
+			(at 355.6 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21934,7 +23137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 79.248 90)
+			(at 355.6 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21943,7 +23146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 77.47 0)
+			(at 355.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21952,7 +23155,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 346.71 77.47 0)
+			(at 355.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21967,7 +23170,7 @@
 			(uuid "69b354ef-2440-400e-bc10-1923fe33e0cc")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R30")
 					(unit 1)
@@ -22032,7 +23235,7 @@
 			(uuid "63d2cd5e-ade5-4f52-b95b-2db747fe0dc9")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR06")
 					(unit 1)
@@ -22118,7 +23321,7 @@
 			(uuid "f2860645-4e4f-4e98-816a-ec9cfb7ddcf2")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U6")
 					(unit 1)
@@ -22187,7 +23390,7 @@
 			(uuid "ba13dee5-1aa2-4351-8363-6859198ef672")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C3")
 					(unit 1)
@@ -22258,7 +23461,7 @@
 			(uuid "a3edcef8-84c4-4cc7-a1db-7d456ccd0be8")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR036")
 					(unit 1)
@@ -22338,7 +23541,7 @@
 			(uuid "628b3c17-eef7-4f57-9c8a-3971330e4e6d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U11")
 					(unit 1)
@@ -22347,8 +23550,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 307.34 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9b73f9b-d295-4f7b-b6a4-45301ec61e44")
+		(property "Reference" "#PWR060"
+			(at 307.34 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.467 243.1542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65cd87f4-98d7-4cae-971d-7f199692ca8d")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:SN74LVC1G14DBV")
-		(at 306.07 77.47 0)
+		(at 313.69 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22357,7 +23625,7 @@
 		(fields_autoplaced yes)
 		(uuid "dde4d740-ce7d-4304-b666-8950861abab9")
 		(property "Reference" "U13"
-			(at 321.31 71.1514 0)
+			(at 328.93 71.1514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22365,7 +23633,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBV"
-			(at 321.31 73.6914 0)
+			(at 328.93 73.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22373,7 +23641,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 306.07 83.82 0)
+			(at 313.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22384,7 +23652,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
-			(at 306.07 86.36 0)
+			(at 313.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22394,7 +23662,7 @@
 			)
 		)
 		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
-			(at 306.07 77.47 0)
+			(at 313.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,9 +23686,80 @@
 			(uuid "69a0c48a-ed7c-4593-b79c-66d237abd02e")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 290.83 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df2d55b4-9d8c-4124-a99c-c177d216b0f1")
+		(property "Reference" "D4"
+			(at 294.64 221.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 294.64 223.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 290.83 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f1481cc-3368-4ca8-973f-9c4dd23cb24f")
+		)
+		(pin "2"
+			(uuid "9d1deb2c-2b99-40b6-b669-07b18417f114")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -22483,7 +23822,7 @@
 			(uuid "9c6b4f01-4a92-4c27-9b91-291a62d2306b")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR038")
 					(unit 1)
@@ -22493,7 +23832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 52.07 0)
+		(at 215.9 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22501,7 +23840,7 @@
 		(dnp no)
 		(uuid "e1b46f1a-2b03-409c-968a-94266ee1995a")
 		(property "Reference" "#PWR029"
-			(at 212.09 58.42 0)
+			(at 215.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22510,7 +23849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.217 56.4642 0)
+			(at 216.027 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22518,7 +23857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 52.07 0)
+			(at 215.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22527,7 +23866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 52.07 0)
+			(at 215.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22536,7 +23875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 52.07 0)
+			(at 215.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22548,7 +23887,7 @@
 			(uuid "0fd93e3b-5076-4106-b58b-20230251e38d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR029")
 					(unit 1)
@@ -22558,7 +23897,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 284.48 77.47 90)
+		(at 292.1 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22567,7 +23906,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2a66531-9cbb-48bf-9b0e-ebbe3124343e")
 		(property "Reference" "R26"
-			(at 284.48 71.12 90)
+			(at 292.1 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22575,7 +23914,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 284.48 73.66 90)
+			(at 292.1 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22583,7 +23922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 79.248 90)
+			(at 292.1 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22592,7 +23931,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 284.48 77.47 0)
+			(at 292.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22601,7 +23940,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 284.48 77.47 0)
+			(at 292.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22616,7 +23955,7 @@
 			(uuid "04fc8fc5-0b33-4c78-a4be-1c6fc9f73bb7")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R26")
 					(unit 1)
@@ -22626,7 +23965,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 335.28 33.02 0)
+		(at 344.17 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22635,7 +23974,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3964134-d43f-4088-aafb-098c7292e7e0")
 		(property "Reference" "R27"
-			(at 337.82 31.7499 0)
+			(at 346.71 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22644,7 +23983,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 337.82 34.2899 0)
+			(at 346.71 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22653,7 +23992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 333.502 33.02 90)
+			(at 342.392 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22662,7 +24001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 33.02 0)
+			(at 344.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22671,7 +24010,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 335.28 33.02 0)
+			(at 344.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22686,7 +24025,7 @@
 			(uuid "2d34c877-9ec3-49ec-b75a-c1d206ce41e1")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R27")
 					(unit 1)
@@ -22696,7 +24035,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 351.79 82.55 0)
+		(at 360.68 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22704,7 +24043,7 @@
 		(dnp no)
 		(uuid "e5851198-940f-4d79-bf7e-66b1c00ef94b")
 		(property "Reference" "C29"
-			(at 355.6 80.6449 0)
+			(at 364.49 80.6449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22713,7 +24052,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 355.6 83.566 0)
+			(at 364.49 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22722,7 +24061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 82.55 0)
+			(at 360.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22731,7 +24070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 82.55 0)
+			(at 360.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22740,7 +24079,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 351.79 82.55 0)
+			(at 360.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22755,9 +24094,79 @@
 			(uuid "ecf59bae-3ff4-4dfc-babb-64bfb74c760d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 375.92 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e74537a1-a5cf-473e-90e1-4d0da14aaeb5")
+		(property "Reference" "R31"
+			(at 378.46 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 378.46 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.142 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 375.92 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64e6934d-76ba-4b4e-804e-fabd506da643")
+		)
+		(pin "2"
+			(uuid "9133084b-72b1-4afe-a7e2-42cf85aa9d12")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -22820,7 +24229,7 @@
 			(uuid "d5466ea7-848a-4d2e-965f-effb15f402bc")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR026")
 					(unit 1)
@@ -22829,6 +24238,76 @@
 			(project "RP2350_60QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 290.83 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee3e4cb6-b4a8-46fa-8b5b-9945071eb305")
+		(property "Reference" "R34"
+			(at 293.37 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 293.37 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.052 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 290.83 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c0f819-aaba-44a5-b558-27e1e42b82e4")
+		)
+		(pin "2"
+			(uuid "c817a163-83d5-479e-b521-6086d3f3bc12")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -22853,7 +24332,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 119.38 114.6174 90)
 			(effects
 				(font
@@ -22896,7 +24375,7 @@
 			(uuid "8490ba2c-f645-4559-931b-77089420345d")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "D1")
 					(unit 1)
@@ -22905,35 +24384,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 335.28 83.82 90)
+		(lib_id "Device:C")
+		(at 360.68 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f77440f6-da35-4d82-b811-67f32c2e5f26")
-		(property "Reference" "SW12"
-			(at 336.55 82.5499 90)
+		(uuid "f6985b34-f225-404d-8ad5-8f38c37e4dbc")
+		(property "Reference" "C30"
+			(at 364.49 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 336.55 85.0899 90)
+		(property "Value" "100n"
+			(at 364.49 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 83.82 0)
+			(at 361.6452 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22942,7 +24421,147 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 83.82 0)
+			(at 360.68 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 360.68 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e541229e-9354-4c69-a92a-992ca14af4c3")
+		)
+		(pin "2"
+			(uuid "c1ed621a-28f4-401f-a7d6-99f59b9af35c")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 323.85 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b93571-80e9-4363-a258-0c5388cfc58a")
+		(property "Reference" "R32"
+			(at 326.39 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 326.39 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.072 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 323.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08099457-411a-4b42-a04c-97e6bd75638d")
+		)
+		(pin "2"
+			(uuid "3b1f8d11-ec91-4308-9c9a-45b53e985656")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f77440f6-da35-4d82-b811-67f32c2e5f26")
+		(property "Reference" "SW12"
+			(at 345.44 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 345.44 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22951,7 +24570,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 335.28 83.82 0)
+			(at 344.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22966,7 +24585,7 @@
 			(uuid "05e9a1ed-de23-4e23-ab47-768f96a11372")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW12")
 					(unit 1)
@@ -23036,9 +24655,79 @@
 			(uuid "41956c93-7dbe-4360-850b-f192e716e644")
 		)
 		(instances
-			(project "RP2040_minimal_r2"
+			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 375.92 205.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9ba42a1-646e-499f-a137-f9792ef3f6df")
+		(property "Reference" "SW13"
+			(at 379.73 204.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 379.73 207.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 375.92 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e36398f6-e5f3-4441-8c19-fde708f4ba96")
+		)
+		(pin "1"
+			(uuid "11481826-5b9d-46ba-b1ab-dae9c5e399f0")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "SW13")
 					(unit 1)
 				)
 			)
