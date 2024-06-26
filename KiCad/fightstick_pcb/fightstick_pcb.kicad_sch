@@ -9538,7 +9538,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 271.78) (xy 240.03 273.05)
+			(xy 316.23 156.21) (xy 316.23 157.48)
 		)
 		(stroke
 			(width 0)
@@ -11778,7 +11778,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 261.62) (xy 240.03 264.16)
+			(xy 316.23 146.05) (xy 316.23 148.59)
 		)
 		(stroke
 			(width 0)
@@ -13229,7 +13229,7 @@
 		)
 		(uuid "2d03be27-95c2-47b6-978e-607d101d5448")
 	)
-	(text "Make sure C8 is close to pin 45 of RP2040"
+	(text "Make sure C12 is close to pin 45 of RP2040"
 		(exclude_from_sim no)
 		(at 107.442 155.448 0)
 		(effects
@@ -13253,7 +13253,7 @@
 	)
 	(text "Switch terminals"
 		(exclude_from_sim no)
-		(at 337.058 120.65 0)
+		(at 314.706 119.126 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13262,7 +13262,7 @@
 		)
 		(uuid "7cfc493f-3362-4d7d-8273-9766fb0c9515")
 	)
-	(text "Make sure C10 is close to pin 44 of RP2040"
+	(text "Make sure C16 is close to pin 44 of RP2040"
 		(exclude_from_sim no)
 		(at 218.44 156.21 0)
 		(effects
@@ -13284,7 +13284,7 @@
 		)
 		(uuid "bdf24b2f-16ae-4688-a769-384f722062d0")
 	)
-	(text "Make sure R3 and R4 are close to RP2040"
+	(text "Make sure R21 and R22 are close to RP2040"
 		(exclude_from_sim no)
 		(at 240.03 172.72 0)
 		(effects
@@ -17407,7 +17407,7 @@
 	(symbol
 		(lib_name "+3V3_17")
 		(lib_id "power:+3V3")
-		(at 240.03 261.62 0)
+		(at 316.23 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17415,7 +17415,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af967")
 		(property "Reference" "#PWR036"
-			(at 240.03 265.43 0)
+			(at 316.23 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17424,7 +17424,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 240.411 257.2258 0)
+			(at 316.611 141.6558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17432,7 +17432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 261.62 0)
+			(at 316.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17441,7 +17441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 261.62 0)
+			(at 316.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17450,7 +17450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 240.03 261.62 0)
+			(at 316.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17472,7 +17472,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 240.03 267.97 0)
+		(at 316.23 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17480,7 +17480,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af96d")
 		(property "Reference" "C21"
-			(at 242.951 266.8016 0)
+			(at 319.151 151.2316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17489,7 +17489,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 242.951 269.113 0)
+			(at 319.151 153.543 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17498,7 +17498,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 240.9952 271.78 0)
+			(at 317.1952 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17507,7 +17507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 267.97 0)
+			(at 316.23 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17516,7 +17516,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 267.97 0)
+			(at 316.23 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17542,7 +17542,7 @@
 	(symbol
 		(lib_name "GND_35")
 		(lib_id "power:GND")
-		(at 240.03 273.05 0)
+		(at 316.23 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17550,7 +17550,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af973")
 		(property "Reference" "#PWR037"
-			(at 240.03 279.4 0)
+			(at 316.23 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17559,7 +17559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 274.32 0)
+			(at 312.42 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17567,7 +17567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 273.05 0)
+			(at 316.23 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17576,7 +17576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 273.05 0)
+			(at 316.23 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17585,7 +17585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 273.05 0)
+			(at 316.23 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17767,7 +17767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 278.892 72.39 90)
 			(effects
 				(font
@@ -18046,7 +18046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x12_P3.50mm_Horizontal"
 			(at 382.27 148.59 0)
 			(effects
 				(font
@@ -18145,7 +18145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 360.68 43.18 0)
 			(effects
 				(font
@@ -18280,7 +18280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 40.64 82.55 0)
 			(effects
 				(font
@@ -18350,7 +18350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 267.462 219.71 90)
 			(effects
 				(font
@@ -18420,7 +18420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 72.39 90)
 			(effects
 				(font
@@ -18488,7 +18488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 79.248 90)
 			(effects
 				(font
@@ -18557,7 +18557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 232.41 43.18 0)
 			(effects
 				(font
@@ -18625,7 +18625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x12_P3.50mm_Horizontal"
 			(at 331.47 148.59 0)
 			(effects
 				(font
@@ -18723,7 +18723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 227.33 79.248 90)
 			(effects
 				(font
@@ -18871,7 +18871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 39.878 90)
 			(effects
 				(font
@@ -19020,7 +19020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 104.14 43.18 0)
 			(effects
 				(font
@@ -19090,7 +19090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 300.482 219.71 90)
 			(effects
 				(font
@@ -19421,7 +19421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 35.56 39.878 90)
 			(effects
 				(font
@@ -19688,7 +19688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 297.18 43.18 0)
 			(effects
 				(font
@@ -19909,7 +19909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 227.33 39.878 90)
 			(effects
 				(font
@@ -19977,7 +19977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 35.56 79.248 90)
 			(effects
 				(font
@@ -20047,7 +20047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 278.892 33.02 90)
 			(effects
 				(font
@@ -20115,7 +20115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 39.878 90)
 			(effects
 				(font
@@ -20537,7 +20537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 166.37 43.18 0)
 			(effects
 				(font
@@ -21017,7 +21017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 22.352 72.39 90)
 			(effects
 				(font
@@ -21365,7 +21365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -21435,7 +21435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 148.082 33.02 90)
 			(effects
 				(font
@@ -21505,7 +21505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 342.392 72.39 90)
 			(effects
 				(font
@@ -21780,7 +21780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.092 135.89 90)
 			(effects
 				(font
@@ -21848,7 +21848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 39.878 90)
 			(effects
 				(font
@@ -21917,7 +21917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 40.64 43.18 0)
 			(effects
 				(font
@@ -22052,7 +22052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 232.41 82.55 0)
 			(effects
 				(font
@@ -22268,7 +22268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 214.122 33.02 90)
 			(effects
 				(font
@@ -22336,7 +22336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x12_P3.50mm_Horizontal"
 			(at 359.41 148.59 0)
 			(effects
 				(font
@@ -22502,7 +22502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 214.122 72.39 90)
 			(effects
 				(font
@@ -22638,7 +22638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 148.082 72.39 90)
 			(effects
 				(font
@@ -22706,7 +22706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 79.248 90)
 			(effects
 				(font
@@ -22774,7 +22774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 39.878 90)
 			(effects
 				(font
@@ -22989,7 +22989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 297.18 82.55 0)
 			(effects
 				(font
@@ -23058,7 +23058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -23208,7 +23208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 22.352 33.02 90)
 			(effects
 				(font
@@ -23276,7 +23276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 79.248 90)
 			(effects
 				(font
@@ -24059,7 +24059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 79.248 90)
 			(effects
 				(font
@@ -24129,7 +24129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 342.392 33.02 90)
 			(effects
 				(font
@@ -24198,7 +24198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 360.68 82.55 0)
 			(effects
 				(font
@@ -24336,7 +24336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 380.492 212.09 90)
 			(effects
 				(font
@@ -24478,7 +24478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 283.972 219.71 90)
 			(effects
 				(font
@@ -24548,7 +24548,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 102.87 123.19 0)
 			(effects
 				(font
@@ -24618,7 +24618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 367.9952 229.87 0)
 			(effects
 				(font
@@ -24688,7 +24688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 316.992 219.71 90)
 			(effects
 				(font
@@ -24758,7 +24758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 33.02 90)
 			(effects
 				(font
@@ -24828,7 +24828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 387.35 226.06 0)
 			(effects
 				(font
