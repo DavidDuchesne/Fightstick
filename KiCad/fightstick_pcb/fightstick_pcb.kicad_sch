@@ -9269,12 +9269,8 @@
 		(uuid "1b4e8dbf-48bf-4f67-bb6c-6947a93cc305")
 	)
 	(no_connect
-		(at 217.17 232.41)
-		(uuid "2162075f-4473-471b-b95d-aacd2674ba61")
-	)
-	(no_connect
-		(at 217.17 229.87)
-		(uuid "3b488d32-3c07-482c-8d83-4754b5fd5ae7")
+		(at 217.17 194.31)
+		(uuid "55691c45-a362-424d-9c80-d4f7b560d160")
 	)
 	(no_connect
 		(at 217.17 227.33)
@@ -9283,6 +9279,10 @@
 	(no_connect
 		(at 34.29 149.86)
 		(uuid "8a54c54e-a896-407b-85a0-020621cc173f")
+	)
+	(no_connect
+		(at 217.17 191.77)
+		(uuid "98c1fb17-cde2-40f0-a0b6-105b19569ed7")
 	)
 	(no_connect
 		(at 217.17 224.79)
@@ -9368,6 +9368,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 229.87) (xy 232.41 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03faca40-4663-4cb4-8832-e4eb320ac348")
+	)
+	(wire
+		(pts
 			(xy 372.11 88.9) (xy 372.11 91.44)
 		)
 		(stroke
@@ -9415,16 +9425,6 @@
 			(type default)
 		)
 		(uuid "062ced82-a0c9-4bd2-b76b-4919b8a2acc3")
-	)
-	(wire
-		(pts
-			(xy 217.17 194.31) (xy 232.41 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "071aad5a-0cfd-4055-9368-de26f2cee4ae")
 	)
 	(wire
 		(pts
@@ -9515,6 +9515,16 @@
 			(type default)
 		)
 		(uuid "0dc009a0-dff4-4c4b-9f64-cd85d09755ee")
+	)
+	(wire
+		(pts
+			(xy 217.17 232.41) (xy 232.41 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc8a13f-e86d-4c3b-9470-4e4ae6949872")
 	)
 	(wire
 		(pts
@@ -10508,6 +10518,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 115.57) (xy 113.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db12dd4-9d01-4240-80d2-99c9bb4c60d7")
+	)
+	(wire
+		(pts
 			(xy 139.7 191.77) (xy 153.67 191.77)
 		)
 		(stroke
@@ -11498,16 +11518,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 119.38) (xy 102.87 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d5c43b4-c714-4c2e-ad84-de1d69ce204f")
-	)
-	(wire
-		(pts
 			(xy 52.07 66.04) (xy 24.13 66.04)
 		)
 		(stroke
@@ -11675,16 +11685,6 @@
 			(type default)
 		)
 		(uuid "9956045d-d0ba-49ad-886a-4e16f3b79b20")
-	)
-	(wire
-		(pts
-			(xy 217.17 191.77) (xy 232.41 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b06e146-2c59-4ff2-bb1a-fd80abb4af75")
 	)
 	(wire
 		(pts
@@ -12018,7 +12018,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 139.7) (xy 102.87 142.24)
+			(xy 113.03 138.43) (xy 113.03 140.97)
 		)
 		(stroke
 			(width 0)
@@ -12598,7 +12598,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 127) (xy 102.87 132.08)
+			(xy 113.03 125.73) (xy 113.03 130.81)
 		)
 		(stroke
 			(width 0)
@@ -13308,7 +13308,7 @@
 	)
 	(text "PGoude"
 		(exclude_from_sim no)
-		(at 86.106 115.062 0)
+		(at 94.996 112.522 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13450,7 +13450,7 @@
 		(uuid "1abf4953-a2f3-4314-947d-99954e80b0ef")
 	)
 	(label "SW_1"
-		(at 383.54 138.43 0)
+		(at 383.54 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13549,7 +13549,7 @@
 		(uuid "33316a49-a578-4d9c-bf87-b945ec79a0ae")
 	)
 	(label "SIG_STICK_1"
-		(at 336.55 158.75 0)
+		(at 336.55 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13703,7 +13703,7 @@
 		(uuid "58a7b371-bbe0-44d8-a0dc-ba8f73f79b36")
 	)
 	(label "SW_Y"
-		(at 336.55 156.21 0)
+		(at 336.55 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13725,7 +13725,7 @@
 		(uuid "62276ebe-48d2-47e7-9677-9b26df416d81")
 	)
 	(label "LED_P0+"
-		(at 232.41 191.77 180)
+		(at 232.41 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13736,7 +13736,7 @@
 		(uuid "63375836-528e-4f39-bcf1-3899d73c858e")
 	)
 	(label "LED_P2+"
-		(at 383.54 151.13 0)
+		(at 383.54 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13747,7 +13747,7 @@
 		(uuid "66052dab-b90d-4ce2-99d9-94ef90e12a2f")
 	)
 	(label "LED_P3-"
-		(at 383.54 143.51 0)
+		(at 383.54 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13756,17 +13756,6 @@
 			(justify left bottom)
 		)
 		(uuid "6794b97f-af9c-4268-8435-6b44f69b317d")
-	)
-	(label "VBUS"
-		(at 95.25 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69c79a90-ccf5-4951-9e1d-502a3c48561d")
 	)
 	(label "SIG_X"
 		(at 232.41 237.49 180)
@@ -13802,7 +13791,7 @@
 		(uuid "76b48c4c-94c1-4118-ad3f-333310abffdf")
 	)
 	(label "LED_P1+"
-		(at 232.41 194.31 180)
+		(at 232.41 232.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13835,7 +13824,7 @@
 		(uuid "7e72fa22-960a-409b-9552-b7d6306ccd73")
 	)
 	(label "SW_SELECT"
-		(at 383.54 148.59 0)
+		(at 383.54 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13901,7 +13890,7 @@
 		(uuid "99930752-dc6e-4361-8a5d-e74bd43e6459")
 	)
 	(label "LED_P1+"
-		(at 336.55 138.43 0)
+		(at 336.55 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14000,7 +13989,7 @@
 		(uuid "ade6396a-0b59-4280-b9c1-49a71cea74d6")
 	)
 	(label "SIG_STICK_0"
-		(at 336.55 161.29 0)
+		(at 336.55 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14165,7 +14154,7 @@
 		(uuid "cc0ace1c-efb3-4c50-9f00-81e56d3aea71")
 	)
 	(label "LED_P3+"
-		(at 383.54 140.97 0)
+		(at 383.54 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14264,7 +14253,7 @@
 		(uuid "ed68be1f-96b1-4f29-bc47-25503c7ffe99")
 	)
 	(label "LED_P0+"
-		(at 336.55 148.59 0)
+		(at 336.55 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14992,7 +14981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edb5c1d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 104.14 204.47 0)
 			(effects
 				(font
@@ -15042,7 +15031,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15139,7 +15128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edc82df")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 185.42 276.86 0)
 			(effects
 				(font
@@ -15189,7 +15178,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15205,7 +15194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edc8ac7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 172.72 276.86 0)
 			(effects
 				(font
@@ -15255,7 +15244,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15471,7 +15460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eed9ba4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 201.93 135.89 0)
 			(effects
 				(font
@@ -15521,7 +15510,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15536,7 +15525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eee74ce")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 165.1 135.89 0)
 			(effects
 				(font
@@ -15586,7 +15575,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15808,7 +15797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef0994")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 248.031 137.2616 0)
 			(effects
 				(font
@@ -15862,7 +15851,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -15877,7 +15866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef89b3")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 259.461 137.2616 0)
 			(effects
 				(font
@@ -15931,7 +15920,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -15946,7 +15935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef89bd")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 270.891 137.2616 0)
 			(effects
 				(font
@@ -16000,7 +15989,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16015,7 +16004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eef89c7")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 282.321 137.2616 0)
 			(effects
 				(font
@@ -16069,7 +16058,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -16613,7 +16602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef621a6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 279.4 152.4 0)
 			(effects
 				(font
@@ -16663,7 +16652,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -16679,7 +16668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005efccd2a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 144.78 151.13 0)
 			(effects
 				(font
@@ -16729,7 +16718,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16745,7 +16734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f00afba")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 156.21 165.1 0)
 			(effects
 				(font
@@ -16795,7 +16784,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16811,7 +16800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f00b2d4")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 210.82 165.1 0)
 			(effects
 				(font
@@ -16861,7 +16850,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -17414,7 +17403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af967")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR047"
 			(at 316.23 149.86 0)
 			(effects
 				(font
@@ -17464,7 +17453,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR036")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -17479,7 +17468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af96d")
-		(property "Reference" "C21"
+		(property "Reference" "C27"
 			(at 319.151 151.2316 0)
 			(effects
 				(font
@@ -17533,7 +17522,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C21")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -17549,7 +17538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1af973")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR048"
 			(at 316.23 163.83 0)
 			(effects
 				(font
@@ -17599,7 +17588,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR037")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17819,7 +17808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02a956ba-446e-42fe-a053-1a52bb9c0dd3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -17869,7 +17858,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17885,7 +17874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03d06615-6dde-4022-a8e3-53dab0b4a9c3")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 280.67 68.58 0)
 			(effects
 				(font
@@ -17935,7 +17924,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -18119,75 +18108,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 360.68 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b7fc0e9-700c-4834-b6cf-bc428ec3a9f9")
-		(property "Reference" "C28"
-			(at 364.49 41.2749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 364.49 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "075f5496-ae7a-40e6-bdc7-634e0322f960")
-		)
-		(pin "1"
-			(uuid "6ed8949f-c0ca-4010-8277-e8a31ac0872d")
-		)
-		(instances
-			(project "fightstick_pcb"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_12")
 		(lib_id "power:GND")
 		(at 115.57 52.07 0)
@@ -18197,7 +18117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ba6bf28-1a80-4a98-8362-4c8c158648b3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 115.57 58.42 0)
 			(effects
 				(font
@@ -18247,76 +18167,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 40.64 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c8b250b-2932-43c0-bc5a-0879af6b0c78")
-		(property "Reference" "C4"
-			(at 44.45 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 44.45 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 40.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 40.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22577b4d-f3d9-4341-9258-4c4d80a7360b")
-		)
-		(pin "1"
-			(uuid "a803eb7e-dd41-492d-b55f-e9e07d7a322e")
-		)
-		(instances
-			(project "fightstick_pcb"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C4")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -18341,7 +18192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "130"
 			(at 271.78 220.9799 0)
 			(effects
 				(font
@@ -18457,6 +18308,76 @@
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1170de61-bda6-4a89-83e1-a32492780747")
+		(property "Reference" "C8"
+			(at 107.95 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 107.95 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 105.1052 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512aa402-c7c9-4dfe-a2c4-2297611bd080")
+		)
+		(pin "2"
+			(uuid "72843e01-0e0e-4f50-b874-8ab0efbe8a22")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -18846,6 +18767,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 360.68 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc18601-6f6d-42ed-ad09-71dd023785fb")
+		(property "Reference" "C29"
+			(at 364.49 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 364.49 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 361.6452 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 360.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50bd8227-95cf-4228-aa6d-95cc793aef68")
+		)
+		(pin "2"
+			(uuid "0bf8a195-6a69-4b31-9dfd-8c862ea19b5c")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 292.1 38.1 90)
 		(unit 1)
@@ -18994,75 +18985,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 104.14 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2974b491-de67-4fff-bed4-8ca6c159534d")
-		(property "Reference" "C7"
-			(at 107.95 41.2749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 107.95 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 104.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 104.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "207dc648-0a88-41de-8465-98120e2bc8e0")
-		)
-		(pin "1"
-			(uuid "7dff4e11-ec1b-4fc9-9870-85f4635e8e26")
-		)
-		(instances
-			(project "fightstick_pcb"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 302.26 219.71 0)
 		(unit 1)
@@ -19081,7 +19003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "130"
 			(at 304.8 220.9799 0)
 			(effects
 				(font
@@ -19141,7 +19063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3145ceb9-f97c-472e-bb04-197ee44737dd")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 388.62 168.91 0)
 			(effects
 				(font
@@ -19191,7 +19113,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -19473,7 +19395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a2032f4-d6b7-49c1-8d3c-e532058c1685")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 318.77 232.41 0)
 			(effects
 				(font
@@ -19523,7 +19445,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -19539,7 +19461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c22899f-922a-4dd8-a9a9-986633c3a1b0")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 215.9 68.58 0)
 			(effects
 				(font
@@ -19589,7 +19511,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -19605,7 +19527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d4574b4-2daf-4e46-b891-f9e74ca3a76e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 285.75 232.41 0)
 			(effects
 				(font
@@ -19655,23 +19577,24 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 297.18 43.18 0)
+		(lib_id "Device:C")
+		(at 232.41 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3dbc0187-f0d8-4bc1-9948-a9f910fa47f2")
-		(property "Reference" "C26"
-			(at 300.99 41.2749 0)
+		(fields_autoplaced yes)
+		(uuid "3ed626b8-ef4d-47c9-9660-c65442615466")
+		(property "Reference" "C19"
+			(at 236.22 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19680,7 +19603,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 300.99 44.196 0)
+			(at 236.22 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19688,8 +19611,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 297.18 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 233.3752 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19698,7 +19621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 297.18 43.18 0)
+			(at 232.41 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19706,25 +19629,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 297.18 43.18 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "606321cb-7e02-45da-8e5a-9abba22473ca")
 		)
 		(pin "1"
-			(uuid "4be6e586-4c2e-4ae4-bae3-353401d52a16")
+			(uuid "92cf0975-9643-4d23-9d48-bec19a7bc713")
+		)
+		(pin "2"
+			(uuid "9e53930a-0970-442e-a248-e0484f50036b")
 		)
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C26")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -20247,7 +20170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "529d158b-81fe-47cd-bc0e-d60c1b277916")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 308.61 97.79 0)
 			(effects
 				(font
@@ -20297,7 +20220,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -20388,7 +20311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b24fe95-7a46-4dd3-8098-b8d442de758e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 280.67 29.21 0)
 			(effects
 				(font
@@ -20438,7 +20361,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -20454,7 +20377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c942d96-8894-4454-97d1-29cdcccc45c9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 243.84 99.06 0)
 			(effects
 				(font
@@ -20504,23 +20427,24 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 166.37 43.18 0)
+		(lib_id "Device:C")
+		(at 40.64 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5cbe1bdd-4986-4c88-bac6-46d9bf882dc0")
-		(property "Reference" "C13"
-			(at 170.18 41.2749 0)
+		(fields_autoplaced yes)
+		(uuid "6255d936-7444-497a-a7c3-6e105ef827d8")
+		(property "Reference" "C4"
+			(at 44.45 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20529,7 +20453,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 170.18 44.196 0)
+			(at 44.45 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20537,8 +20461,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 166.37 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 41.6052 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20547,7 +20471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 43.18 0)
+			(at 40.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20555,25 +20479,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 166.37 43.18 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "e2f2c2ab-83a3-4c70-9536-9768aef0d5c5")
 		)
 		(pin "1"
-			(uuid "109065c0-d7ad-446d-b924-2e6b59a17328")
+			(uuid "749e17fe-8439-4812-aee0-4a9d8d60cb26")
+		)
+		(pin "2"
+			(uuid "161ff7a4-d553-458e-8c5d-972f97dd0437")
 		)
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C13")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -20589,7 +20513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6302313f-0d5d-4a86-a07d-9a1159785afb")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 149.86 29.21 0)
 			(effects
 				(font
@@ -20639,7 +20563,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -20655,7 +20579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65032b4b-275f-48aa-8812-ee0470a69f6a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 382.27 208.28 0)
 			(effects
 				(font
@@ -20705,7 +20629,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -20721,7 +20645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67b843f4-3f9a-4ee7-8a7b-e604caa3dc4d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 149.86 68.58 0)
 			(effects
 				(font
@@ -20771,7 +20695,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -20787,7 +20711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67da4b03-adc0-417b-881b-38541c2352da")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 372.11 97.79 0)
 			(effects
 				(font
@@ -20837,7 +20761,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -20933,7 +20857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69dac7ac-0de1-43e9-9240-eb05f4413db9")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 382.27 243.84 0)
 			(effects
 				(font
@@ -20983,7 +20907,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -21069,7 +20993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d4ce138-1c2f-4d4e-925b-e6f2395f5b55")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 269.24 232.41 0)
 			(effects
 				(font
@@ -21119,7 +21043,77 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR040")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 297.18 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d54cb32-3740-4dd7-ac04-5b66f75f4dd0")
+		(property "Reference" "C26"
+			(at 300.99 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 300.99 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 298.1452 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 297.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b874a00-3155-4d85-b56c-aa1d1aeed4c0")
+		)
+		(pin "2"
+			(uuid "f2a7c639-dc8e-440a-8b93-cc7b3fb35944")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -21135,7 +21129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7005f445-8789-416a-a41a-93a19229902a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 243.84 58.42 0)
 			(effects
 				(font
@@ -21185,7 +21179,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -21274,7 +21268,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 102.87 142.24 0)
+		(at 113.03 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21282,8 +21276,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79952de9-57e1-494b-bd6f-d88dc1ca41fc")
-		(property "Reference" "#PWR019"
-			(at 102.87 148.59 0)
+		(property "Reference" "#PWR021"
+			(at 113.03 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21292,7 +21286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 147.32 0)
+			(at 113.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21300,7 +21294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 142.24 0)
+			(at 113.03 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21309,7 +21303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 142.24 0)
+			(at 113.03 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21318,7 +21312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 142.24 0)
+			(at 113.03 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21332,76 +21326,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 166.37 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e685a63-b777-4c20-98a7-980f5d9fb196")
-		(property "Reference" "C14"
-			(at 170.18 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 170.18 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "168fef86-1e9d-41e1-8560-81259c0230fd")
-		)
-		(pin "1"
-			(uuid "aa7500b5-f2ef-48d5-b5b6-dba55807713a")
-		)
-		(instances
-			(project "fightstick_pcb"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C14")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -21472,6 +21397,76 @@
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 297.18 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b71062c-f490-4d15-bfea-62870f42ca78")
+		(property "Reference" "C25"
+			(at 300.99 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 300.99 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 298.1452 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 297.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7e17ad8-ac5c-44e5-a677-d8f9df6dffeb")
+		)
+		(pin "2"
+			(uuid "4d1a8839-f2d9-41d2-bea0-564081738613")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -21557,7 +21552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f8aabef-35fc-4712-8ebf-2bd1b4d4bd06")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 215.9 29.21 0)
 			(effects
 				(font
@@ -21607,7 +21602,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -21623,7 +21618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "922d4584-0651-4983-a230-b244a1e285e1")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -21673,7 +21668,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -21754,7 +21749,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 135.89 0)
+		(at 113.03 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21763,7 +21758,7 @@
 		(fields_autoplaced yes)
 		(uuid "9765d278-616e-4c3c-af9b-9deeafa742f9")
 		(property "Reference" "R12"
-			(at 105.41 134.6199 0)
+			(at 115.57 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21771,8 +21766,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 105.41 137.1599 0)
+		(property "Value" "130"
+			(at 115.57 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21781,7 +21776,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.092 135.89 90)
+			(at 111.252 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21790,7 +21785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 135.89 0)
+			(at 113.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21799,7 +21794,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 135.89 0)
+			(at 113.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21891,75 +21886,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 40.64 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a09fa47f-7ede-401f-bbca-14db4044643c")
-		(property "Reference" "C3"
-			(at 44.45 41.2749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 44.45 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f52849ac-6831-4b97-9e78-d002a43a1826")
-		)
-		(pin "1"
-			(uuid "d7bb7162-be09-4751-a43a-c59c95caaa2f")
-		)
-		(instances
-			(project "fightstick_pcb"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_12")
 		(lib_id "power:GND")
 		(at 308.61 53.34 0)
@@ -21969,7 +21895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a46b6641-923e-4dbc-9d28-44159fb65477")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 308.61 59.69 0)
 			(effects
 				(font
@@ -22019,76 +21945,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 232.41 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa81f9e4-4e61-4735-9dc3-40da58d71f7b")
-		(property "Reference" "C19"
-			(at 236.22 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 236.22 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 232.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 232.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53d7610c-c89b-4841-9238-4aa2d9183875")
-		)
-		(pin "1"
-			(uuid "77d5dbb6-604c-455a-9c9f-d77508f728a3")
-		)
-		(instances
-			(project "fightstick_pcb"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C19")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -22235,6 +22092,76 @@
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac7caee9-a52c-47f7-97bf-722eff2ed2c1")
+		(property "Reference" "C7"
+			(at 107.95 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 107.95 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 105.1052 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "760319f9-e88d-40da-a828-d12378a1d976")
+		)
+		(pin "2"
+			(uuid "03d31f16-a4bc-41ff-b7c7-eabdf4cfd4ef")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -22409,6 +22336,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 166.37 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f2f113-e821-47be-ad6e-54f67735adcf")
+		(property "Reference" "C13"
+			(at 170.18 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 170.18 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 167.3352 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e6e1cd9-501b-431f-8384-3549360ced53")
+		)
+		(pin "2"
+			(uuid "200be83f-d5f3-4104-881d-805779618764")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
 		(at 344.17 64.77 0)
@@ -22418,7 +22415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b291c0e5-1b0e-481a-ad05-1e1db79c12a8")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 344.17 68.58 0)
 			(effects
 				(font
@@ -22468,7 +22465,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -22675,6 +22672,76 @@
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 360.68 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bea34df3-727f-499e-8e25-9c94d9886f92")
+		(property "Reference" "C28"
+			(at 364.49 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 364.49 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 361.6452 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 360.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75b6f957-5db8-4dc3-80ed-45ad2fccc037")
+		)
+		(pin "2"
+			(uuid "21e09282-6e63-4fcd-be24-6a202e417772")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -22906,7 +22973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c80a176c-94b5-4dfa-92a5-69889b433ae3")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 344.17 29.21 0)
 			(effects
 				(font
@@ -22956,145 +23023,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 297.18 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c84b9603-e2d3-4a8e-a6a7-f1e901128021")
-		(property "Reference" "C27"
-			(at 300.99 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 300.99 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 297.18 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 297.18 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 297.18 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9850b74-2328-4fd8-9a9f-5d5c27d3bb1b")
-		)
-		(pin "1"
-			(uuid "af53db05-f0c3-41ea-9144-91eb322ae53c")
-		)
-		(instances
-			(project "fightstick_pcb"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 104.14 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cab9b40f-b43f-4b6c-bb81-2b394dcd0c3a")
-		(property "Reference" "C8"
-			(at 107.95 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 107.95 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 104.14 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 104.14 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2d9a65c-83b3-45bc-8025-5929ef446f5b")
-		)
-		(pin "1"
-			(uuid "5acc60a2-48b8-421b-981f-52f8dcd90bd4")
-		)
-		(instances
-			(project "fightstick_pcb"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C8")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -23391,6 +23320,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 40.64 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfdfa586-7982-41ae-9fd4-4079bb1225bc")
+		(property "Reference" "C3"
+			(at 44.45 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 44.45 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 41.6052 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc915e0-867b-48f4-8d49-bf6be0570202")
+		)
+		(pin "2"
+			(uuid "a0201a7f-305f-497b-b678-f275b60f60c4")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 365.76 162.56 0)
 		(unit 1)
@@ -23399,7 +23398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfec0e2e-0dd9-4c7d-9379-b72ddb321c25")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 365.76 168.91 0)
 			(effects
 				(font
@@ -23449,7 +23448,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -23545,7 +23544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d30135e8-808b-487c-ac37-d96d75e2e76c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 372.11 58.42 0)
 			(effects
 				(font
@@ -23595,7 +23594,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -23832,7 +23831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9b73f9b-d295-4f7b-b6a4-45301ec61e44")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 302.26 232.41 0)
 			(effects
 				(font
@@ -23882,7 +23881,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -23897,7 +23896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd47ac2b-6294-4677-9b10-7c0654532da5")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 388.62 135.89 0)
 			(effects
 				(font
@@ -23947,7 +23946,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -24102,6 +24101,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 166.37 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e32a7d99-021d-4a97-8a90-70a672b95163")
+		(property "Reference" "C14"
+			(at 170.18 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 170.18 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 167.3352 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5baacae4-589c-4269-993d-120dddf62712")
+		)
+		(pin "2"
+			(uuid "cacb424f-8583-4ade-b1b8-f523a1d4d817")
+		)
+		(instances
+			(project "fightstick_pcb"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 344.17 33.02 0)
 		(unit 1)
@@ -24172,34 +24241,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 360.68 82.55 0)
+		(lib_name "+3V3_13")
+		(lib_id "power:+3V3")
+		(at 113.03 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e5851198-940f-4d79-bf7e-66b1c00ef94b")
-		(property "Reference" "C29"
-			(at 364.49 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 364.49 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
-			(at 360.68 82.55 0)
+		(uuid "e5c04d7a-ca50-4dc7-9eef-1b5053e6c803")
+		(property "Reference" "#PWR020"
+			(at 113.03 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24207,8 +24259,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 360.68 82.55 0)
+		(property "Value" "+3V3"
+			(at 113.411 111.1758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24216,8 +24276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 360.68 82.55 0)
+		(property "Datasheet" ""
+			(at 113.03 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24225,16 +24285,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f47faf00-a17e-4e51-84c2-b04be58741e4")
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ecf59bae-3ff4-4dfc-babb-64bfb74c760d")
+			(uuid "c1427d4b-6487-47ad-8aa8-7ef6c850aaa7")
 		)
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C29")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -24327,7 +24393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 384.81 213.3599 0)
 			(effects
 				(font
@@ -24469,7 +24535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "130"
 			(at 288.29 220.9799 0)
 			(effects
 				(font
@@ -24522,7 +24588,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 102.87 123.19 90)
+		(at 113.03 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24531,7 +24597,7 @@
 		(fields_autoplaced yes)
 		(uuid "f449aada-96bd-47cf-b2d6-a1a7ebbe725e")
 		(property "Reference" "D1"
-			(at 106.68 123.5074 90)
+			(at 116.84 122.2374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24540,7 +24606,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 106.68 126.0474 90)
+			(at 116.84 124.7774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24549,7 +24615,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 102.87 123.19 0)
+			(at 113.03 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24558,7 +24624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 123.19 0)
+			(at 113.03 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24567,7 +24633,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 99.822 123.19 0)
+			(at 109.982 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24679,7 +24745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "130"
 			(at 321.31 220.9799 0)
 			(effects
 				(font
@@ -24880,7 +24946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc262c22-d28e-42b3-8d0b-dcf71755950f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 177.8 97.79 0)
 			(effects
 				(font
@@ -24930,7 +24996,7 @@
 		(instances
 			(project "fightstick_pcb"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
